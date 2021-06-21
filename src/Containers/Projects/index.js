@@ -3,6 +3,7 @@ import Graph from '../../Components/Graph'
 import Graph2 from '../../Components/Graph2'
 import PlotCard from '../../Components/Plot'
 import './style.css'
+import { useMediaQuery } from 'react-responsive'
 
 /**
 * @author
@@ -10,22 +11,45 @@ import './style.css'
 **/
 
 const Projects = (props) => {
+  const isDesktopOrLaptop = useMediaQuery({ query: '(min-width: 1224px)' })
+  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
+  const isPortrait = useMediaQuery({ query: '(orientation: portrait)' })
+  const isLandscape = useMediaQuery({ query: '(orientation: landscape)' })
   return (
     <section className="proj">
-      <div className="project">
-        <PlotCard>
-          <div className='plt'>
-            <Graph />
-          </div>
-        </PlotCard>
-      </div>
-      <div className="project2">
-        <PlotCard>
-          <div className='plt2'>
-            <Graph2 />
-          </div>
-        </PlotCard>
-      </div>
+      {isDesktopOrLaptop &&
+        <div className="project">
+          <PlotCard>
+            <div className='plt'>
+              <Graph />
+            </div>
+          </PlotCard>
+        </div>}
+      {isDesktopOrLaptop &&
+        <div className="project2">
+          <PlotCard>
+            <div className='plt2'>
+              <Graph2 />
+            </div>
+          </PlotCard>
+        </div>}
+
+      {isTabletOrMobile &&
+        <div className="m-project">
+          <PlotCard>
+            <div className='m-plt'>
+              <Graph />
+            </div>
+          </PlotCard>
+        </div>}
+      {isTabletOrMobile &&
+        <div className="m-project2">
+          <PlotCard>
+            <div className='m-plt2'>
+              <Graph2 />
+            </div>
+          </PlotCard>
+        </div>}
     </section>
   )
 

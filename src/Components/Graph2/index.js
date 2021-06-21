@@ -19,8 +19,6 @@ class Graph2 extends React.Component {
                     z: [],
                 }],
             layout: {
-                height: 500,
-                width: 1200,
                 paper_bgcolor: 'rgb(97, 92, 87)',
                 plot_bgcolor: 'rgb(97, 92, 87)',
                 font: { family: "Arial", size: "15", color: "rgb(253, 237, 165)" },
@@ -30,6 +28,7 @@ class Graph2 extends React.Component {
                     zaxis: { range: [0, 10], zerolinecolor: "rgb(253, 237, 165)", title: 'IMDB Rating' },
                 },
             },
+            config: { responsive: true },
             titles: [],
             years: [],
             age_ratings: [],

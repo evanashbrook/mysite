@@ -1,6 +1,7 @@
 import React from 'react'
 import './style.css'
-import {NavLink} from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
+import { useMediaQuery } from 'react-responsive'
 
 /**
 * @author
@@ -8,23 +9,42 @@ import {NavLink} from 'react-router-dom'
 **/
 
 const Header = (props) => {
-  return(
+  const isDesktopOrLaptop = useMediaQuery({ query: '(min-width: 1224px)' })
+  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
+  const isPortrait = useMediaQuery({ query: '(orientation: portrait)' })
+  const isLandscape = useMediaQuery({ query: '(orientation: landscape)' })
+  return (
     <header className="header">
-    <nav className="headerMenu">
-        <li><NavLink to='/'>Evan Ashbrook</NavLink></li>
-        <li><NavLink to='/education'>Education</NavLink></li>
-        <li><NavLink to='projects'>Django DB Project</NavLink></li>
-        <li><NavLink to='/interests'>Interests</NavLink></li>
-    </nav>
-    <div className='contact'>
-        <li><NavLink to='/Contact'>Contact</NavLink></li>
-        
-    </div>
-    
+      {isDesktopOrLaptop &&
+        <nav className="headerMenu">
+          <li><NavLink to='/'>Evan Ashbrook</NavLink></li>
+          <li><NavLink to='/education'>Education</NavLink></li>
+          <li><NavLink to='projects'>Django DB Project</NavLink></li>
+          <li><NavLink to='/interests'>Interests</NavLink></li>
+        </nav>}
+      {isDesktopOrLaptop &&
+        <div className='contact'>
+          <li><NavLink to='/Contact'>Contact</NavLink></li>
 
-</header>
-   )
+        </div>}
 
- }
+      {isTabletOrMobile &&
+        <nav className="m-headerMenu">
+          <li><NavLink to='/'>Evan Ashbrook</NavLink></li>
+          <li><NavLink to='/education'>Education</NavLink></li>
+          <li><NavLink to='projects'>Django DB Project</NavLink></li>
+          <li><NavLink to='/interests'>Interests</NavLink></li>
+        </nav>}
+      {isTabletOrMobile &&
+        <div className='m-contact'>
+          <li><NavLink to='/Contact'>Contact</NavLink></li>
+
+        </div>}
+
+
+    </header>
+  )
+
+}
 
 export default Header

@@ -7,10 +7,10 @@ import './style.css'
 **/
 
 const PlotCard = (props) => {
-  return(
+  return (
     <div className='plotty'>{props.children}</div>
-   )
+  )
 
- }
+}
 
 export default PlotCard

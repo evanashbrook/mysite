@@ -19,14 +19,13 @@ class Graph extends React.Component {
           width: [1, 1, 1]
         }],
       layout: {
-        height: 500,
-        width: 1200,
         paper_bgcolor: 'rgb(97, 92, 87)',
         plot_bgcolor: 'rgb(97, 92, 87)',
         font: { family: "Arial", size: "15", color: "rgb(253, 237, 165)" },
         xaxis: { showticklabels: false },
         yaxis: { range: [0, 10], zerolinecolor: "rgb(253, 237, 165)", dtick: .5 }
       },
+      config: { responsive: true },
       titles: [],
       years: [],
       age_ratings: [],
@@ -51,7 +50,23 @@ class Graph extends React.Component {
           imdb_rating.push(movie.imdb_rating),
           on_netflix.push(movie.on_netflix)
         ));
-        this.setState({ data: [{ x: title.slice(0, 50), y: imdb_rating.slice(0, 50), text: title.slice(0, 50), textposition: 'auto', textangle: 90, type: 'bar', marker: { color: "rgb(255, 208, 0)" } }], titles: title, years: year, age_ratings: age_rating, imdb_ratings: imdb_rating, on_netflixs: on_netflix });
+        this.setState({
+          data: [{
+            x: title.slice(0, 50),
+            y: imdb_rating.slice(0, 50),
+            text: title.slice(0, 50),
+            textposition: 'auto',
+            textangle: 90,
+            type: 'bar',
+            marker: { color: "rgb(255, 208, 0)" }
+          }],
+          config: { responsive: true },
+          titles: title,
+          years: year,
+          age_ratings: age_rating,
+          imdb_ratings: imdb_rating,
+          on_netflixs: on_netflix
+        });
       })
   }
   render() {

@@ -1,6 +1,5 @@
 .proj {
   display: flexbox;
-  position: initial;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -12,27 +11,45 @@
   left: 20%;
   right: 20%;
   top: 10%;
-  bottom: -30%;
   text-align: center;
 }
 
 .plt {
   text-align: center;
-  overflow-x: scroll;
-  overflow-y: scroll;
 }
 
 .project2 {
   position: absolute;
   left: 20%;
   right: 20%;
-  top: 90%;
+  top: 100%;
   bottom: -100%;
   text-align: center;
 }
 
 .plt2 {
   text-align: center;
-  overflow-x: scroll;
-  overflow-y: scroll;
+}
+
+.m-project {
+  text-align: center;
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  justify-content: center;
+}
+
+.m-plt {
+  text-align: center;
+}
+
+.m-project2 {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 5%;
+  justify-content: center;
+}
+
+.m-plt2 {
+  text-align: center;
 }

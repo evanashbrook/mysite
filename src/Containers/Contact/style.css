@@ -1,6 +1,5 @@
 .Chme {
   display: flexbox;
-  margin: 20px 30px;
   height: 100%;
   width: 100%;
   position:unset;
@@ -76,6 +75,72 @@
 
 
 .clist li a {
+  text-decoration: none;
+  color: rgb(196, 166, 0);
+}
+
+
+
+
+.m-cname {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.m-evan {
+  font-family: "Orbitron", sans-serif;
+  font-size: 3.8vw;
+  color: rgb(255, 208, 0);
+  font: small-caps;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 1.7%;
+  text-align: center;
+}
+
+.m-mypic {
+  text-align: right;
+  width: 50%;
+  height: auto;
+  z-index: 950;
+  margin-bottom: 5%;
+}
+
+.m-mypic img {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.m-Cside {
+  text-align: center;
+  width: 100%;
+}
+
+.m-cp1 {
+  text-align: left;
+  color: rgb(255, 208, 0);
+  font-size: 2.5vw;
+  padding-left: 1%;
+  margin-bottom: .5%;
+  font-family: "Orbitron", sans-serif;
+  margin-top: 2%;
+  text-align: center;
+}
+
+.m-clist {
+  text-align: left;
+  font-size: 1.1vw;
+  color: rgb(253, 237, 165);
+  font-family: "Orbitron", sans-serif;
+  list-style: none;
+  padding-left: 1.5%;
+  text-align: center;
+}
+
+
+.m-clist li a {
   text-decoration: none;
   color: rgb(196, 166, 0);
 }

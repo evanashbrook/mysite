@@ -32,13 +32,49 @@
   text-decoration: none;
   list-style: none;
   color: #565673;
-  font-size: 16px;
+  font-size: 1vw;
   letter-spacing: 1.2px;
   position: relative;
   font-family: "Orbitron", sans-serif;
 }
 
 .contact li a {
+  text-decoration: none;
+  color: rgb(255, 208, 0);
+}
+
+.m-headerMenu{
+  width: 70%;
+}
+
+.m-headerMenu li {
+  display: inline-flex;
+  justify-content: space-evenly;
+  list-style: none;
+  color: #f5f5f5;
+  width: 25%;
+  font-size: 1.5vw;
+  font-family: "Orbitron", sans-serif;
+}
+
+.m-headerMenu li a {
+  text-decoration: none;
+  color: rgb(255, 208, 0);
+}
+
+.m-contact li {
+  display: inline-block;
+  margin: 0 5%;
+  text-decoration: none;
+  list-style: none;
+  color: #565673;
+  font-size: 1.5vw;
+  letter-spacing: 1.2px;
+  position: relative;
+  font-family: "Orbitron", sans-serif;
+}
+
+.m-contact li a {
   text-decoration: none;
   color: rgb(255, 208, 0);
 }
