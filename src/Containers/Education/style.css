@@ -1,18 +1,16 @@
 .Ehme {
   display: flexbox;
   margin: 20px 30px;
-  height: 900px;
-  width: 1500px;
-  position: relative;
-  background-image: url("../../Assets/Icons/network7.png");
-  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position:unset;
 }
 
 .state {
   text-align: left;
   position: absolute;
   left: 2%;
-  top: 2%;
+  top: 5%;
   right: auto;
   width: 50%;
   height: fit-content;
@@ -20,62 +18,68 @@
 
 .ncstate {
   font-family: "Orbitron", sans-serif;
-  font-size: 60px;
+  font-size: 3.8vw;
   color: rgb(255, 208, 0);
   font: small-caps;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 1.7%;
 }
 
 .sas {
   text-align: right;
-  width: fit-content;
-  height: fit-content;
+  width: 40%;
+  height: 35%;
   position: absolute;
-  left: 50%;
-  top: 10%;
+  left: 51%;
+  top: 15%;
   right: auto;
   z-index: 950;
 }
 
-.sas img {
-  text-align: right;
-  width: 100%;
-  height: auto;
+.sas img{
+  position: relative;
+  height: min-content;
 }
+
+
 
 .Eside {
   text-align: center;
   width: 50%;
   position: absolute;
   left: 2%;
-  top: 35%;
+  top: 40%;
   right: auto;
+  height: fit-content;
 }
 
 .p1 {
   text-align: left;
   color: rgb(255, 208, 0);
-  font-size: 40px;
-  padding-left: 10px;
-  margin-bottom: 5px;
+  font-size: 2.5vw;
+  padding-left: 1%;
+  margin-bottom: .5%;
   font-family: "Orbitron", sans-serif;
+  margin-top: 2%;
 }
 
 .p2 {
   text-align: left;
   font-style: italic;
   color: rgb(194, 159, 2);
-  padding-left: 20px;
-  margin-top: 0px;
-  font-size: 25px;
+  padding-left: 2%;
+  margin-top: 0%;
+  font-size: 1.5vw;
 }
 
 .schlist {
   text-align: left;
-  font-size: 20px;
+  font-size: 1.1vw;
   color: rgb(253, 237, 165);
   font-family: "Orbitron", sans-serif;
   list-style: none;
-  padding-left: 15px;
+  padding-left: 1.5%;
 }
 
 .Eside2 {
@@ -83,12 +87,13 @@
   left: 2%;
   top: 90%;
   right: 2%;
+  height: fit-content;
 }
 
 .p21 {
   text-align: center;
   color: rgb(255, 208, 0);
-  font-size: 35px;
+  font-size: 2.5vw;
   margin-top: 0%;
   margin-bottom: 0%;
   font-family: "Orbitron", sans-serif;
@@ -97,56 +102,61 @@
 .p22 {
   color: rgb(253, 237, 165);
   font-family: "Orbitron", sans-serif;
-  padding: 0px 40px;
+  padding: 0% 3%;
+  font-size: .9vw;
 }
 
 .knowlist {
-  padding: 0px 50px;
+  padding: 0% 3%;
 }
 
 .knowlist2 {
-  padding: 0px 50px;
+  padding: 0% 3%;
 }
 
 .knowlist p {
   text-align: center;
   color: rgb(255, 208, 0);
   font-family: "Orbitron", sans-serif;
-  font-size: 25px;
+  font-size: 1.5vw;
 }
 
 .knowlist2 p {
   text-align: center;
   color: rgb(255, 208, 0);
   font-family: "Orbitron", sans-serif;
-  font-size: 25px;
+  font-size: 1.5vw;
 }
 
 .knowlist dt {
   color: rgb(194, 159, 2);
   font-family: "Orbitron", sans-serif;
+  font-size: .9vw;
 }
 
 .knowlist2 dt {
   color: rgb(194, 159, 2);
   font-family: "Orbitron", sans-serif;
+  font-size: .9vw;
 }
 
 .knowlist dd {
   color: rgb(253, 237, 165);
   font-family: "Orbitron", sans-serif;
+  font-size: .9vw;
 }
 
 .knowlist2 dd {
   color: rgb(253, 237, 165);
   font-family: "Orbitron", sans-serif;
+  font-size: .9vw;
 }
 
 .btm {
   position: absolute;
   background-color: rgb(255, 208, 0);
   border-radius: 20px;
-  top: 168%;
+  top: 160%;
   left: 2%;
   right: 2%;
 }
@@ -157,17 +167,17 @@
 }
 
 .fend {
-  font-size: 50px;
+  font-size: 3vw;
   color: rgb(255, 208, 0);
-  padding-left: 2%;
+  padding-left: 2.5%;
   width: fit-content;
   font-family: "Orbitron", sans-serif;
 }
 
 .bend {
-  font-size: 50px;
+  font-size: 3vw;
   color: rgb(255, 208, 0);
-  padding-left: 2%;
+  padding-left: 0%;
   width: fit-content;
   font-family: "Orbitron", sans-serif;
 }
@@ -184,8 +194,8 @@
 }
 
 .btmlists ul li {
-  margin: 10px 0px;
-  font-size: 20px;
+  margin: 3% 0%;
+  font-size: 1vw;
   align-items: center;
   font-family: "Orbitron", sans-serif;
 }

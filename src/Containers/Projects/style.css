@@ -2,22 +2,19 @@
   display: flexbox;
   margin: 20px 30px;
   margin-bottom: 0px;
-  position: relative;
+  position: inherit;
   justify-content: center;
   align-items: center;
-  width: 1500px;
-  height: 900px;
-  background-image: url("../../Assets/Icons/network7.png");
-  background-size: cover;
-  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
 }
 
 .project {
   width: fit-content;
   height: fit-content;
   position: absolute;
-  top: 10px;
-  left: 10%;
+  left: 15%;
+  right: 20%;
   text-align: center;
 }
 
@@ -29,8 +26,8 @@
   width: fit-content;
   height: fit-content;
   position: absolute;
-  top: 750px;
-  left: 10%;
+  top: 90%;
+  left: 15%;
   text-align: center;
 }
 

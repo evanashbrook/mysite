@@ -1,27 +1,30 @@
 .Chme {
-  display: flex;
+  display: flexbox;
   margin: 20px 30px;
-  margin-bottom: 0;
-  height: 900px;
-  position: relative;
-  background-image: url("../../Assets/Icons/network7.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 1500px;
+  height: 100%;
+  width: 100%;
+  position:unset;
 }
 
 .cname {
+  text-align: left;
   position: absolute;
-  top: 2%;
   left: 2%;
-  text-align: center;
+  top: 15%;
+  right: auto;
   width: 50%;
+  height: fit-content;
 }
 
 .evan {
   font-family: "Orbitron", sans-serif;
+  font-size: 3.8vw;
   color: rgb(255, 208, 0);
-  font-size: 60px;
+  font: small-caps;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 1.7%;
+  text-align: center;
 }
 
 .mypic {
@@ -29,8 +32,8 @@
   width: fit-content;
   height: fit-content;
   position: absolute;
-  left: 50%;
-  top: 10%;
+  left: 51%;
+  top: 25%;
   right: auto;
   z-index: 950;
 }
@@ -46,31 +49,31 @@
   width: 50%;
   position: absolute;
   left: 2%;
-  top: 40%;
+  top: 50%;
   right: auto;
 }
 
 .cp1 {
-  text-align: center;
+  text-align: left;
   color: rgb(255, 208, 0);
-  font-size: 40px;
-  padding-left: 10px;
-  margin-bottom: 5px;
+  font-size: 2.5vw;
+  padding-left: 1%;
+  margin-bottom: .5%;
   font-family: "Orbitron", sans-serif;
+  margin-top: 2%;
+  text-align: center;
 }
 
 .clist {
   text-align: left;
-  font-size: 30px;
+  font-size: 1.1vw;
   color: rgb(253, 237, 165);
   font-family: "Orbitron", sans-serif;
   list-style: none;
-  padding-left: 15px;
+  padding-left: 1.5%;
+  text-align: center;
 }
 
-.clist li {
-  padding: 30px 0px;
-}
 
 .clist li a {
   text-decoration: none;

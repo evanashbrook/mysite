@@ -1,11 +1,13 @@
 body {
-  background: rgb(75, 71, 68);
+  background-color: rgb(75, 71, 68);
+  background-image: url("./Assets/Icons/network7.png");
+  background-size: cover;
 }
 
 .head {
   position: sticky;
   top: 0%;
-  background: rgb(75, 71, 68);
-  padding: 20px 0px;
+  padding: 1% 0px;
   z-index: 999;
 }
+
