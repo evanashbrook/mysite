@@ -1,0 +1,9 @@
+.plotty {
+  background: rgb(97, 92, 87);
+  height: fit-content;
+  width: fit-content;
+  padding: 50px 10px;
+  border-radius: 100px;
+  display: flex;
+  flex-direction: column;
+}

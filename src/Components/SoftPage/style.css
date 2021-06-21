@@ -1,0 +1,9 @@
+.sftpg {
+  background: linear-gradient(
+    58deg,
+    rgb(255, 255, 255) 0%,
+    rgb(239, 199, 255) 80%
+  );
+  width: fit-content;
+  height: fit-content;
+}

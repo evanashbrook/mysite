@@ -1,0 +1,221 @@
+.Ehme {
+  display: flexbox;
+  margin: 20px 30px;
+  height: 900px;
+  width: 1500px;
+  position: relative;
+  background-image: url("../../Assets/Icons/network7.png");
+  background-size: cover;
+}
+
+.state {
+  text-align: left;
+  position: absolute;
+  left: 2%;
+  top: 2%;
+  right: auto;
+  width: 50%;
+  height: fit-content;
+}
+
+.ncstate {
+  font-family: "Orbitron", sans-serif;
+  font-size: 60px;
+  color: rgb(255, 208, 0);
+  font: small-caps;
+}
+
+.sas {
+  text-align: right;
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  right: auto;
+  z-index: 950;
+}
+
+.sas img {
+  text-align: right;
+  width: 100%;
+  height: auto;
+}
+
+.Eside {
+  text-align: center;
+  width: 50%;
+  position: absolute;
+  left: 2%;
+  top: 35%;
+  right: auto;
+}
+
+.p1 {
+  text-align: left;
+  color: rgb(255, 208, 0);
+  font-size: 40px;
+  padding-left: 10px;
+  margin-bottom: 5px;
+  font-family: "Orbitron", sans-serif;
+}
+
+.p2 {
+  text-align: left;
+  font-style: italic;
+  color: rgb(194, 159, 2);
+  padding-left: 20px;
+  margin-top: 0px;
+  font-size: 25px;
+}
+
+.schlist {
+  text-align: left;
+  font-size: 20px;
+  color: rgb(253, 237, 165);
+  font-family: "Orbitron", sans-serif;
+  list-style: none;
+  padding-left: 15px;
+}
+
+.Eside2 {
+  position: absolute;
+  left: 2%;
+  top: 90%;
+  right: 2%;
+}
+
+.p21 {
+  text-align: center;
+  color: rgb(255, 208, 0);
+  font-size: 35px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  font-family: "Orbitron", sans-serif;
+}
+
+.p22 {
+  color: rgb(253, 237, 165);
+  font-family: "Orbitron", sans-serif;
+  padding: 0px 40px;
+}
+
+.knowlist {
+  padding: 0px 50px;
+}
+
+.knowlist2 {
+  padding: 0px 50px;
+}
+
+.knowlist p {
+  text-align: center;
+  color: rgb(255, 208, 0);
+  font-family: "Orbitron", sans-serif;
+  font-size: 25px;
+}
+
+.knowlist2 p {
+  text-align: center;
+  color: rgb(255, 208, 0);
+  font-family: "Orbitron", sans-serif;
+  font-size: 25px;
+}
+
+.knowlist dt {
+  color: rgb(194, 159, 2);
+  font-family: "Orbitron", sans-serif;
+}
+
+.knowlist2 dt {
+  color: rgb(194, 159, 2);
+  font-family: "Orbitron", sans-serif;
+}
+
+.knowlist dd {
+  color: rgb(253, 237, 165);
+  font-family: "Orbitron", sans-serif;
+}
+
+.knowlist2 dd {
+  color: rgb(253, 237, 165);
+  font-family: "Orbitron", sans-serif;
+}
+
+.btm {
+  position: absolute;
+  background-color: rgb(255, 208, 0);
+  border-radius: 20px;
+  top: 168%;
+  left: 2%;
+  right: 2%;
+}
+
+.btmpage {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.fend {
+  font-size: 50px;
+  color: rgb(255, 208, 0);
+  padding-left: 2%;
+  width: fit-content;
+  font-family: "Orbitron", sans-serif;
+}
+
+.bend {
+  font-size: 50px;
+  color: rgb(255, 208, 0);
+  padding-left: 2%;
+  width: fit-content;
+  font-family: "Orbitron", sans-serif;
+}
+
+.btmlists {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btmlists ul {
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.btmlists ul li {
+  margin: 10px 0px;
+  font-size: 20px;
+  align-items: center;
+  font-family: "Orbitron", sans-serif;
+}
+
+.react {
+  text-align: center;
+  color: rgb(75, 71, 68);
+  font-weight: bolder;
+}
+
+.react-pltly {
+  text-align: center;
+  color: rgb(75, 71, 68);
+  font-weight: bolder;
+}
+
+.axios {
+  text-align: center;
+  color: rgb(75, 71, 68);
+  font-weight: bolder;
+}
+
+.django {
+  text-align: center;
+  color: rgb(75, 71, 68);
+  font-weight: bolder;
+}
+
+.djangorf {
+  text-align: center;
+  color: rgb(75, 71, 68);
+  font-weight: bolder;
+}

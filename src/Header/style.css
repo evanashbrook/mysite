@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+
+.headerMenu li {
+  display: inline-block;
+  margin: 0 50px;
+  list-style: none;
+  color: #f5f5f5;
+  font-size: 16px;
+  letter-spacing: 1.2px;
+  font-family: "Orbitron", sans-serif;
+}
+
+.headerMenu li a {
+  text-decoration: none;
+  color: rgb(255, 208, 0);
+}
+
+.header li a:hover {
+  color: #5f9ea0;
+}
+.contact li {
+  display: inline-block;
+  margin: 0 50px;
+  text-decoration: none;
+  list-style: none;
+  color: #565673;
+  font-size: 16px;
+  letter-spacing: 1.2px;
+  position: relative;
+  font-family: "Orbitron", sans-serif;
+}
+
+.contact li a {
+  text-decoration: none;
+  color: rgb(255, 208, 0);
+}

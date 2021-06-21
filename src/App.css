@@ -1,0 +1,11 @@
+body {
+  background: rgb(75, 71, 68);
+}
+
+.head {
+  position: sticky;
+  top: 0%;
+  background: rgb(75, 71, 68);
+  padding: 20px 0px;
+  z-index: 999;
+}

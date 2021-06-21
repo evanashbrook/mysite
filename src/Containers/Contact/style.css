@@ -1,0 +1,78 @@
+.Chme {
+  display: flex;
+  margin: 20px 30px;
+  margin-bottom: 0;
+  height: 900px;
+  position: relative;
+  background-image: url("../../Assets/Icons/network7.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1500px;
+}
+
+.cname {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  text-align: center;
+  width: 50%;
+}
+
+.evan {
+  font-family: "Orbitron", sans-serif;
+  color: rgb(255, 208, 0);
+  font-size: 60px;
+}
+
+.mypic {
+  text-align: right;
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  right: auto;
+  z-index: 950;
+}
+
+.mypic img {
+  text-align: right;
+  width: 400px;
+  height: auto;
+}
+
+.Cside {
+  text-align: center;
+  width: 50%;
+  position: absolute;
+  left: 2%;
+  top: 40%;
+  right: auto;
+}
+
+.cp1 {
+  text-align: center;
+  color: rgb(255, 208, 0);
+  font-size: 40px;
+  padding-left: 10px;
+  margin-bottom: 5px;
+  font-family: "Orbitron", sans-serif;
+}
+
+.clist {
+  text-align: left;
+  font-size: 30px;
+  color: rgb(253, 237, 165);
+  font-family: "Orbitron", sans-serif;
+  list-style: none;
+  padding-left: 15px;
+}
+
+.clist li {
+  padding: 30px 0px;
+}
+
+.clist li a {
+  text-decoration: none;
+  color: rgb(196, 166, 0);
+}

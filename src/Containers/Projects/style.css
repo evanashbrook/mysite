@@ -1,0 +1,39 @@
+.proj {
+  display: flexbox;
+  margin: 20px 30px;
+  margin-bottom: 0px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 1500px;
+  height: 900px;
+  background-image: url("../../Assets/Icons/network7.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.project {
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  top: 10px;
+  left: 10%;
+  text-align: center;
+}
+
+.plt {
+  text-align: center;
+}
+
+.project2 {
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  top: 750px;
+  left: 10%;
+  text-align: center;
+}
+
+.plt2 {
+  text-align: center;
+}
