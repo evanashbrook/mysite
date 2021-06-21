@@ -1,8 +1,6 @@
 .proj {
   display: flexbox;
-  margin: 20px 30px;
-  margin-bottom: 0px;
-  position: inherit;
+  position: initial;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -10,27 +8,31 @@
 }
 
 .project {
-  width: fit-content;
-  height: fit-content;
   position: absolute;
-  left: 15%;
+  left: 20%;
   right: 20%;
+  top: 10%;
+  bottom: -30%;
   text-align: center;
 }
 
 .plt {
   text-align: center;
+  overflow-x: scroll;
+  overflow-y: scroll;
 }
 
 .project2 {
-  width: fit-content;
-  height: fit-content;
   position: absolute;
+  left: 20%;
+  right: 20%;
   top: 90%;
-  left: 15%;
+  bottom: -100%;
   text-align: center;
 }
 
 .plt2 {
   text-align: center;
+  overflow-x: scroll;
+  overflow-y: scroll;
 }
