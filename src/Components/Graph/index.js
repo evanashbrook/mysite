@@ -21,7 +21,7 @@ class Graph extends React.Component {
       layout: {
         paper_bgcolor: 'rgb(97, 92, 87)',
         plot_bgcolor: 'rgb(97, 92, 87)',
-        font: { family: "Arial", size: "15", color: "rgb(253, 237, 165)" },
+        font: { family: "Arial", size: "15px", color: "rgb(253, 237, 165)" },
         xaxis: { showticklabels: false },
         yaxis: { range: [0, 10], zerolinecolor: "rgb(253, 237, 165)", dtick: .5 }
       },
@@ -60,6 +60,14 @@ class Graph extends React.Component {
             type: 'bar',
             marker: { color: "rgb(255, 208, 0)" }
           }],
+          layout: {
+            paper_bgcolor: 'rgb(97, 92, 87)',
+            plot_bgcolor: 'rgb(97, 92, 87)',
+            font: { family: "Arial", size: "15", color: "rgb(253, 237, 165)" },
+            xaxis: { showticklabels: false },
+            yaxis: { range: [0, 10], zerolinecolor: "rgb(253, 237, 165)" }
+          },
+          style: { width: "100%", height: "100%" },
           config: { responsive: true },
           titles: title,
           years: year,
@@ -69,6 +77,7 @@ class Graph extends React.Component {
         });
       })
   }
+
   render() {
     return (
       <section>
@@ -77,6 +86,7 @@ class Graph extends React.Component {
           <Plot
             data={this.state.data}
             layout={this.state.layout}
+            config={this.state.config}
             onInitialized={(figure) => this.setState(figure)}
             onUpdate={(figure) => this.setState(figure)}
           />

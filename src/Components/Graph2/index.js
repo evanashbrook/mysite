@@ -65,8 +65,6 @@ class Graph2 extends React.Component {
                         }
                     }],
                     layout: {
-                        height: 700,
-                        width: 1200,
                         paper_bgcolor: 'rgb(97, 92, 87)',
                         plot_bgcolor: 'rgb(97, 92, 87)',
                         font: { family: "Arial", size: "15", color: "rgb(253, 237, 165)" },
@@ -89,6 +87,7 @@ class Graph2 extends React.Component {
                             },
                         }
                     },
+                    config: { responsive: true },
                     titles: title,
                     years: year,
                     age_ratings: age_rating,
@@ -106,6 +105,7 @@ class Graph2 extends React.Component {
                     <Plot
                         data={this.state.data}
                         layout={this.state.layout}
+                        config={this.state.config}
                         onInitialized={(figure) => this.setState(figure)}
                         onUpdate={(figure) => this.setState(figure)}
                     />

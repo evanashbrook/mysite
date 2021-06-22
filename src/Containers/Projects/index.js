@@ -18,12 +18,8 @@ const Projects = (props) => {
   return (
     <section className="proj">
       {isDesktopOrLaptop &&
-        <div className="project">
-          <PlotCard>
-            <div className='plt'>
-              <Graph />
-            </div>
-          </PlotCard>
+        <div className='plt'>
+          <Graph />
         </div>}
       {isDesktopOrLaptop &&
         <div className="project2">
@@ -35,20 +31,12 @@ const Projects = (props) => {
         </div>}
 
       {isTabletOrMobile &&
-        <div className="m-project">
-          <PlotCard>
-            <div className='m-plt'>
-              <Graph />
-            </div>
-          </PlotCard>
+        <div className='m-plt2'>
+          <Graph />
         </div>}
       {isTabletOrMobile &&
-        <div className="m-project2">
-          <PlotCard>
-            <div className='m-plt2'>
-              <Graph2 />
-            </div>
-          </PlotCard>
+        <div className='m-plt2'>
+          <Graph2 />
         </div>}
     </section>
   )
