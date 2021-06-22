@@ -2,6 +2,7 @@ import React from "react";
 import Plot from "react-plotly.js";
 import axios from 'axios';
 import './style.css'
+import Mgraph2 from "../Mgraph2";
 
 axios.defaults.xsrfCookieName = 'csrftoken'
 axios.defaults.xsrfHeaderName = 'X-CSRFToken'
@@ -34,6 +35,11 @@ class Mgraph extends React.Component {
       imdb_ratings: [],
       on_netflixs: []
     };
+    this.handleClick1 = this.handleClick1.bind(this);
+    this.handleClick2 = this.handleClick2.bind(this);
+    this.handleClick3 = this.handleClick3.bind(this);
+    this.handleClick4 = this.handleClick4.bind(this);
+    this.handleClick5 = this.handleClick5.bind(this);
   }
 
   componentDidMount() {
