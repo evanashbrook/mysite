@@ -20,7 +20,7 @@ class Mgraph extends React.Component {
           width: [1, 1, 1]
         }],
       layout: {
-        width: 400,
+        width: 425,
         height: 400,
         paper_bgcolor: 'rgb(97, 92, 87)',
         plot_bgcolor: 'rgb(97, 92, 87)',
@@ -60,16 +60,16 @@ class Mgraph extends React.Component {
         ));
         this.setState({
           data: [{
-            x: title.slice(0, 50),
-            y: imdb_rating.slice(0, 50),
-            text: title.slice(0, 50),
+            x: title.slice(0, 10),
+            y: imdb_rating.slice(0, 10),
+            text: title.slice(0, 10),
             textposition: 'auto',
             textangle: 90,
             type: 'bar',
             marker: { color: "#5f9ea0" }
           }],
           layout: {
-            width: 400,
+            width: 425,
             height: 400,
             paper_bgcolor: 'rgb(97, 92, 87)',
             plot_bgcolor: 'rgb(97, 92, 87)',

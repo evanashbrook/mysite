@@ -19,7 +19,7 @@ class Mgraph2 extends React.Component {
                     z: [],
                 }],
             layout: {
-                width: 400,
+                width: 425,
                 height: 400,
                 paper_bgcolor: 'rgb(97, 92, 87)',
                 plot_bgcolor: 'rgb(97, 92, 87)',
@@ -62,9 +62,9 @@ class Mgraph2 extends React.Component {
                 ));
                 this.setState({
                     data: [{
-                        x: year.slice(0, 50),
-                        y: title.slice(0, 50),
-                        z: imdb_rating.slice(0, 50),
+                        x: year.slice(0, 10),
+                        y: title.slice(0, 10),
+                        z: imdb_rating.slice(0, 10),
                         type: 'scatter3d',
                         mode: 'markers',
                         marker: {
@@ -72,7 +72,7 @@ class Mgraph2 extends React.Component {
                         }
                     }],
                     layout: {
-                        width: 400,
+                        width: 425,
                         height: 400,
                         paper_bgcolor: 'rgb(97, 92, 87)',
                         plot_bgcolor: 'rgb(97, 92, 87)',

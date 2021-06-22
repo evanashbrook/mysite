@@ -59,9 +59,9 @@ class Graph extends React.Component {
         ));
         this.setState({
           data: [{
-            x: title.slice(0, 50),
-            y: imdb_rating.slice(0, 50),
-            text: title.slice(0, 50),
+            x: title.slice(0, 10),
+            y: imdb_rating.slice(0, 10),
+            text: title.slice(0, 10),
             textposition: 'auto',
             textangle: 90,
             type: 'bar',

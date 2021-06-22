@@ -62,9 +62,9 @@ class Graph2 extends React.Component {
                 ));
                 this.setState({
                     data: [{
-                        x: year.slice(0, 50),
-                        y: title.slice(0, 50),
-                        z: imdb_rating.slice(0, 50),
+                        x: year.slice(0, 10),
+                        y: title.slice(0, 10),
+                        z: imdb_rating.slice(0, 10),
                         type: 'scatter3d',
                         mode: 'markers',
                         marker: {
