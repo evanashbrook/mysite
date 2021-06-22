@@ -1,12 +1,40 @@
-.pltttle {
+.pltttle{
   font-size: 4vw;
-  font-family: "Orbitron", sans-serif;
-  color: rgb(253, 237, 165);
-  padding: 0px 0px;
-  margin: 0px 0px;
-  width: 100%;
+font-family: "Orbitron", sans-serif;
+color: rgb(253, 237, 165);
+padding: 0px 0px;
+margin: 0px 0px;
+width: 100%;
 }
 
 .plottyboi{
-  text-align: center;
+  overflow-x: scroll;
+}
+
+.btns p{
+  font-size: 3vw;
+font-family: "Orbitron", sans-serif;
+color: rgb(253, 237, 165);
+padding: 0px 0px;
+margin: 0px 0px;
+width: 100%;
+}
+
+.btns ul{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btns ul button{
+  background-color: rgb(97, 92, 87);
+  font-size: 2vw;
+  color: rgb(253, 237, 165);
+  border-style: solid;
+  border-color: rgb(253, 237, 165);
+  padding: 2%;
+}
+
+.btns ul button:hover{
+  background-color: rgb(253, 237, 165);
+  color: rgb(97, 92, 87);
 }

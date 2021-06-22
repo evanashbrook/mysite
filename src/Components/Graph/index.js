@@ -2,7 +2,6 @@ import React from "react";
 import Plot from "react-plotly.js";
 import axios from 'axios';
 import './style.css'
-import { useMediaQuery } from 'react-responsive'
 
 axios.defaults.xsrfCookieName = 'csrftoken'
 axios.defaults.xsrfHeaderName = 'X-CSRFToken'
@@ -82,6 +81,116 @@ class Graph extends React.Component {
         });
       })
   }
+  handleClick1() {
+    this.setState({
+      data: [{
+        x: this.state.titles.slice(0, 5),
+        y: this.state.imdb_ratings.slice(0, 5),
+        text: this.state.titles.slice(0, 5),
+        textposition: 'auto',
+        textangle: 90,
+        type: 'bar',
+        marker: { color: "rgb(255, 208, 0)" }
+      }],
+      layout: {
+        width: 1000,
+        height: 500,
+        paper_bgcolor: 'rgb(97, 92, 87)',
+        plot_bgcolor: 'rgb(97, 92, 87)',
+        font: { family: "Arial", size: "15", color: "rgb(253, 237, 165)" },
+        xaxis: { showticklabels: false },
+        yaxis: { range: [0, 10], zerolinecolor: "rgb(253, 237, 165)" }
+      },
+    })
+  };
+  handleClick2() {
+    this.setState({
+      data: [{
+        x: this.state.titles.slice(0, 10),
+        y: this.state.imdb_ratings.slice(0, 10),
+        text: this.state.titles.slice(0, 10),
+        textposition: 'auto',
+        textangle: 90,
+        type: 'bar',
+        marker: { color: "rgb(255, 208, 0)" }
+      }],
+      layout: {
+        width: 1000,
+        height: 500,
+        paper_bgcolor: 'rgb(97, 92, 87)',
+        plot_bgcolor: 'rgb(97, 92, 87)',
+        font: { family: "Arial", size: "15", color: "rgb(253, 237, 165)" },
+        xaxis: { showticklabels: false },
+        yaxis: { range: [0, 10], zerolinecolor: "rgb(253, 237, 165)" }
+      },
+    })
+  };
+  handleClick3() {
+    this.setState({
+      data: [{
+        x: this.state.titles.slice(0, 15),
+        y: this.state.imdb_ratings.slice(0, 15),
+        text: this.state.titles.slice(0, 15),
+        textposition: 'auto',
+        textangle: 90,
+        type: 'bar',
+        marker: { color: "rgb(255, 208, 0)" }
+      }],
+      layout: {
+        width: 1000,
+        height: 500,
+        paper_bgcolor: 'rgb(97, 92, 87)',
+        plot_bgcolor: 'rgb(97, 92, 87)',
+        font: { family: "Arial", size: "15", color: "rgb(253, 237, 165)" },
+        xaxis: { showticklabels: false },
+        yaxis: { range: [0, 10], zerolinecolor: "rgb(253, 237, 165)" }
+      },
+    })
+  };
+  handleClick4() {
+    this.setState({
+      data: [{
+        x: this.state.titles.slice(0, 20),
+        y: this.state.imdb_ratings.slice(0, 20),
+        text: this.state.titles.slice(0, 20),
+        textposition: 'auto',
+        textangle: 90,
+        type: 'bar',
+        marker: { color: "rgb(255, 208, 0)" }
+      }],
+      layout: {
+        width: 1000,
+        height: 500,
+        paper_bgcolor: 'rgb(97, 92, 87)',
+        plot_bgcolor: 'rgb(97, 92, 87)',
+        font: { family: "Arial", size: "15", color: "rgb(253, 237, 165)" },
+        xaxis: { showticklabels: false },
+        yaxis: { range: [0, 10], zerolinecolor: "rgb(253, 237, 165)" }
+      },
+    })
+  };
+  handleClick5() {
+    this.setState({
+      data: [{
+        x: this.state.titles.slice(0, 50),
+        y: this.state.imdb_ratings.slice(0, 50),
+        text: this.state.titles.slice(0, 50),
+        textposition: 'auto',
+        textangle: 90,
+        type: 'bar',
+        marker: { color: "rgb(255, 208, 0)" }
+      }],
+      layout: {
+        width: 1000,
+        height: 500,
+        paper_bgcolor: 'rgb(97, 92, 87)',
+        plot_bgcolor: 'rgb(97, 92, 87)',
+        font: { family: "Arial", size: "15", color: "rgb(253, 237, 165)" },
+        xaxis: { showticklabels: false },
+        yaxis: { range: [0, 10], zerolinecolor: "rgb(253, 237, 165)" }
+      },
+    })
+  };
 
   render() {
     return (
@@ -95,6 +204,16 @@ class Graph extends React.Component {
             onInitialized={(figure) => this.setState(figure)}
             onUpdate={(figure) => this.setState(figure)}
           />
+        </div>
+        <div className='btns'>
+          <p className='btntitle'>How many movies would you like to compare?</p>
+          <ul>
+            <button className='btn1' onClick={this.handleClick1}>5</button>
+            <button className='btn2' onClick={this.handleClick2}>10</button>
+            <button className='btn3' onClick={this.handleClick3}>15</button>
+            <button className='btn4' onClick={this.handleClick4}>20</button>
+            <button className='btn5' onClick={this.handleClick5}>50</button>
+          </ul>
         </div>
       </section>
     );

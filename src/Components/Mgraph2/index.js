@@ -101,11 +101,71 @@ class Mgraph2 extends React.Component {
                 );
             })
     }
+    handleClick1() {
+        this.setState({
+            data: [{
+                x: this.state.years.slice(0, 5),
+                y: this.state.titles.slice(0, 5),
+                z: this.state.titles.slice(0, 5),
+                type: 'scatter3d',
+                mode: 'markers',
+                marker: { color: "rgb(255, 208, 0)" }
+            }]
+        })
+    };
+    handleClick2() {
+        this.setState({
+            data: [{
+                x: this.state.years.slice(0, 10),
+                y: this.state.titles.slice(0, 10),
+                z: this.state.titles.slice(0, 10),
+                type: 'scatter3d',
+                mode: 'markers',
+                marker: { color: "rgb(255, 208, 0)" }
+            }]
+        })
+    };
+    handleClick3() {
+        this.setState({
+            data: [{
+                x: this.state.years.slice(0, 15),
+                y: this.state.titles.slice(0, 15),
+                z: this.state.titles.slice(0, 15),
+                type: 'scatter3d',
+                mode: 'markers',
+                marker: { color: "rgb(255, 208, 0)" }
+            }]
+        })
+    };
+    handleClick4() {
+        this.setState({
+            data: [{
+                x: this.state.years.slice(0, 20),
+                y: this.state.titles.slice(0, 20),
+                z: this.state.titles.slice(0, 20),
+                type: 'scatter3d',
+                mode: 'markers',
+                marker: { color: "rgb(255, 208, 0)" }
+            }]
+        })
+    };
+    handleClick5() {
+        this.setState({
+            data: [{
+                x: this.state.years.slice(0, 50),
+                y: this.state.titles.slice(0, 50),
+                z: this.state.titles.slice(0, 50),
+                type: 'scatter3d',
+                mode: 'markers',
+                marker: { color: "rgb(255, 208, 0)" }
+            }]
+        })
+    };
     render() {
         return (
             <section>
-                <p className='pltttle2'>Neftlix IMDB Ratings</p>
-                <div style={{ width: "100%", height: "100%" }}>
+                <p className='m-pltttle2'>Neftlix IMDB Ratings</p>
+                <div className='m2-plottyboi'>
                     <Plot
                         data={this.state.data}
                         layout={this.state.layout}
@@ -113,6 +173,16 @@ class Mgraph2 extends React.Component {
                         onInitialized={(figure) => this.setState(figure)}
                         onUpdate={(figure) => this.setState(figure)}
                     />
+                </div>
+                <div className='m2-btns'>
+                    <p className='m2-btntitle'>How many movies would you like to compare?</p>
+                    <ul>
+                        <button className='m2-btn1' onClick={this.handleClick1}>5</button>
+                        <button className='m2-btn2' onClick={this.handleClick2}>10</button>
+                        <button className='m2-btn3' onClick={this.handleClick3}>15</button>
+                        <button className='m2-btn4' onClick={this.handleClick4}>20</button>
+                        <button className='m2-btn5' onClick={this.handleClick5}>50</button>
+                    </ul>
                 </div>
             </section>
         );

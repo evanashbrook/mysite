@@ -19,8 +19,8 @@ class Graph2 extends React.Component {
                     z: [],
                 }],
             layout: {
-                width: 500,
-                height: 400,
+                width: 1000,
+                height: 500,
                 paper_bgcolor: 'rgb(97, 92, 87)',
                 plot_bgcolor: 'rgb(97, 92, 87)',
                 font: { family: "Arial", size: "15", color: "rgb(253, 237, 165)" },
@@ -67,8 +67,8 @@ class Graph2 extends React.Component {
                         }
                     }],
                     layout: {
-                        width: 800,
-                        height: 400,
+                        width: 1000,
+                        height: 500,
                         paper_bgcolor: 'rgb(97, 92, 87)',
                         plot_bgcolor: 'rgb(97, 92, 87)',
                         font: { family: "Arial", size: "15", color: "rgb(253, 237, 165)" },
@@ -101,11 +101,197 @@ class Graph2 extends React.Component {
                 );
             })
     }
+    handleClick1() {
+        this.setState({
+            data: [{
+                x: this.state.years.slice(0, 5),
+                y: this.state.titles.slice(0, 5),
+                z: this.state.titles.slice(0, 5),
+                type: 'scatter3d',
+                mode: 'markers',
+                marker: { color: "rgb(255, 208, 0)" }
+            }],
+            layout: {
+                width: 1000,
+                height: 500,
+                paper_bgcolor: 'rgb(97, 92, 87)',
+                plot_bgcolor: 'rgb(97, 92, 87)',
+                font: { family: "Arial", size: "15", color: "rgb(253, 237, 165)" },
+                scene: {
+                    xaxis: { range: [1990, 2021], zerolinecolor: "rgb(253, 237, 165)", gridcolor: "rgb(253, 237, 165)", title: "Release Year" },
+                    yaxis: { showticklabels: false, zerolinecolor: "rgb(253, 237, 165)", gridcolor: "rgb(253, 237, 165)", title: "Title" },
+                    zaxis: { range: [5, 10], zerolinecolor: "rgb(253, 237, 165)", gridcolor: "rgb(253, 237, 165)", title: "IMDB Rating" },
+                    aspectmode: 'manual',
+                    aspectratio: { x: 2, y: 1, z: 1 },
+                    camera: {
+                        center: {
+                            x: 0, y: -.5, z: -.5
+                        },
+                        eye: {
+                            x: -.5, y: 1.5, z: 1.2
+                        },
+                        up: {
+                            x: 0, y: 0, z: 1
+                        }
+                    },
+                }
+            },
+        })
+    };
+    handleClick2() {
+        this.setState({
+            data: [{
+                x: this.state.years.slice(0, 10),
+                y: this.state.titles.slice(0, 10),
+                z: this.state.titles.slice(0, 10),
+                type: 'scatter3d',
+                mode: 'markers',
+                marker: { color: "rgb(255, 208, 0)" }
+            }],
+            layout: {
+                width: 1000,
+                height: 500,
+                paper_bgcolor: 'rgb(97, 92, 87)',
+                plot_bgcolor: 'rgb(97, 92, 87)',
+                font: { family: "Arial", size: "15", color: "rgb(253, 237, 165)" },
+                scene: {
+                    xaxis: { range: [1990, 2021], zerolinecolor: "rgb(253, 237, 165)", gridcolor: "rgb(253, 237, 165)", title: "Release Year" },
+                    yaxis: { showticklabels: false, zerolinecolor: "rgb(253, 237, 165)", gridcolor: "rgb(253, 237, 165)", title: "Title" },
+                    zaxis: { range: [5, 10], zerolinecolor: "rgb(253, 237, 165)", gridcolor: "rgb(253, 237, 165)", title: "IMDB Rating" },
+                    aspectmode: 'manual',
+                    aspectratio: { x: 2, y: 1, z: 1 },
+                    camera: {
+                        center: {
+                            x: 0, y: -.5, z: -.5
+                        },
+                        eye: {
+                            x: -.5, y: 1.5, z: 1.2
+                        },
+                        up: {
+                            x: 0, y: 0, z: 1
+                        }
+                    },
+                }
+            },
+        })
+    };
+    handleClick3() {
+        this.setState({
+            data: [{
+                x: this.state.years.slice(0, 15),
+                y: this.state.titles.slice(0, 15),
+                z: this.state.titles.slice(0, 15),
+                type: 'scatter3d',
+                mode: 'markers',
+                marker: { color: "rgb(255, 208, 0)" }
+            }],
+            layout: {
+                width: 1000,
+                height: 500,
+                paper_bgcolor: 'rgb(97, 92, 87)',
+                plot_bgcolor: 'rgb(97, 92, 87)',
+                font: { family: "Arial", size: "15", color: "rgb(253, 237, 165)" },
+                scene: {
+                    xaxis: { range: [1990, 2021], zerolinecolor: "rgb(253, 237, 165)", gridcolor: "rgb(253, 237, 165)", title: "Release Year" },
+                    yaxis: { showticklabels: false, zerolinecolor: "rgb(253, 237, 165)", gridcolor: "rgb(253, 237, 165)", title: "Title" },
+                    zaxis: { range: [5, 10], zerolinecolor: "rgb(253, 237, 165)", gridcolor: "rgb(253, 237, 165)", title: "IMDB Rating" },
+                    aspectmode: 'manual',
+                    aspectratio: { x: 2, y: 1, z: 1 },
+                    camera: {
+                        center: {
+                            x: 0, y: -.5, z: -.5
+                        },
+                        eye: {
+                            x: -.5, y: 1.5, z: 1.2
+                        },
+                        up: {
+                            x: 0, y: 0, z: 1
+                        }
+                    },
+                }
+            },
+        })
+    };
+    handleClick4() {
+        this.setState({
+            data: [{
+                x: this.state.years.slice(0, 20),
+                y: this.state.titles.slice(0, 20),
+                z: this.state.titles.slice(0, 20),
+                type: 'scatter3d',
+                mode: 'markers',
+                marker: { color: "rgb(255, 208, 0)" }
+            }],
+            layout: {
+                width: 1000,
+                height: 500,
+                paper_bgcolor: 'rgb(97, 92, 87)',
+                plot_bgcolor: 'rgb(97, 92, 87)',
+                font: { family: "Arial", size: "15", color: "rgb(253, 237, 165)" },
+                scene: {
+                    xaxis: { range: [1990, 2021], zerolinecolor: "rgb(253, 237, 165)", gridcolor: "rgb(253, 237, 165)", title: "Release Year" },
+                    yaxis: { showticklabels: false, zerolinecolor: "rgb(253, 237, 165)", gridcolor: "rgb(253, 237, 165)", title: "Title" },
+                    zaxis: { range: [5, 10], zerolinecolor: "rgb(253, 237, 165)", gridcolor: "rgb(253, 237, 165)", title: "IMDB Rating" },
+                    aspectmode: 'manual',
+                    aspectratio: { x: 2, y: 1, z: 1 },
+                    camera: {
+                        center: {
+                            x: 0, y: -.5, z: -.5
+                        },
+                        eye: {
+                            x: -.5, y: 1.5, z: 1.2
+                        },
+                        up: {
+                            x: 0, y: 0, z: 1
+                        }
+                    },
+                }
+            },
+        })
+    };
+    handleClick5() {
+        this.setState({
+            data: [{
+                x: this.state.years.slice(0, 50),
+                y: this.state.titles.slice(0, 50),
+                z: this.state.titles.slice(0, 50),
+                type: 'scatter3d',
+                mode: 'markers',
+                marker: { color: "rgb(255, 208, 0)" }
+            }],
+            layout: {
+                width: 1000,
+                height: 500,
+                paper_bgcolor: 'rgb(97, 92, 87)',
+                plot_bgcolor: 'rgb(97, 92, 87)',
+                font: { family: "Arial", size: "15", color: "rgb(253, 237, 165)" },
+                scene: {
+                    xaxis: { range: [1990, 2021], zerolinecolor: "rgb(253, 237, 165)", gridcolor: "rgb(253, 237, 165)", title: "Release Year" },
+                    yaxis: { showticklabels: false, zerolinecolor: "rgb(253, 237, 165)", gridcolor: "rgb(253, 237, 165)", title: "Title" },
+                    zaxis: { range: [5, 10], zerolinecolor: "rgb(253, 237, 165)", gridcolor: "rgb(253, 237, 165)", title: "IMDB Rating" },
+                    aspectmode: 'manual',
+                    aspectratio: { x: 2, y: 1, z: 1 },
+                    camera: {
+                        center: {
+                            x: 0, y: -.5, z: -.5
+                        },
+                        eye: {
+                            x: -.5, y: 1.5, z: 1.2
+                        },
+                        up: {
+                            x: 0, y: 0, z: 1
+                        }
+                    },
+                }
+            },
+        })
+    };
+
     render() {
         return (
             <section>
                 <p className='pltttle2'>Neftlix IMDB Ratings</p>
-                <div style={{ width: "100%", height: "100%" }}>
+                <div className='plottyboi2'>
                     <Plot
                         data={this.state.data}
                         layout={this.state.layout}
@@ -113,6 +299,16 @@ class Graph2 extends React.Component {
                         onInitialized={(figure) => this.setState(figure)}
                         onUpdate={(figure) => this.setState(figure)}
                     />
+                </div>
+                <div className='btns2'>
+                    <p className='btntitle2'>How many movies would you like to compare?</p>
+                    <ul>
+                        <button className='btn1-2' onClick={this.handleClick1}>5</button>
+                        <button className='btn2-2' onClick={this.handleClick2}>10</button>
+                        <button className='btn3-2' onClick={this.handleClick3}>15</button>
+                        <button className='btn4-2' onClick={this.handleClick4}>20</button>
+                        <button className='btn5-2' onClick={this.handleClick5}>50</button>
+                    </ul>
                 </div>
             </section>
         );
