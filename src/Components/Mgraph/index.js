@@ -66,7 +66,7 @@ class Mgraph extends React.Component {
             textposition: 'auto',
             textangle: 90,
             type: 'bar',
-            marker: { color: "rgb(255, 208, 0)" }
+            marker: { color: "#5f9ea0" }
           }],
           layout: {
             width: 400,
@@ -96,7 +96,7 @@ class Mgraph extends React.Component {
         textposition: 'auto',
         textangle: 90,
         type: 'bar',
-        marker: { color: "rgb(255, 208, 0)" }
+        marker: { color: "#5f9ea0" }
       }],
       layout: {
         width: 400,
@@ -118,7 +118,7 @@ class Mgraph extends React.Component {
         textposition: 'auto',
         textangle: 90,
         type: 'bar',
-        marker: { color: "rgb(255, 208, 0)" }
+        marker: { color: "#5f9ea0" }
       }],
       layout: {
         width: 600,
@@ -140,7 +140,7 @@ class Mgraph extends React.Component {
         textposition: 'auto',
         textangle: 90,
         type: 'bar',
-        marker: { color: "rgb(255, 208, 0)" }
+        marker: { color: "#5f9ea0" }
       }],
       layout: {
         width: 800,
@@ -162,7 +162,7 @@ class Mgraph extends React.Component {
         textposition: 'auto',
         textangle: 90,
         type: 'bar',
-        marker: { color: "rgb(255, 208, 0)" }
+        marker: { color: "#5f9ea0" }
       }],
       layout: {
         width: 1000,
@@ -184,7 +184,7 @@ class Mgraph extends React.Component {
         textposition: 'auto',
         textangle: 90,
         type: 'bar',
-        marker: { color: "rgb(255, 208, 0)" }
+        marker: { color: "#5f9ea0" }
       }],
       layout: {
         width: 1200,

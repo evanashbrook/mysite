@@ -68,7 +68,7 @@ class Graph2 extends React.Component {
                         type: 'scatter3d',
                         mode: 'markers',
                         marker: {
-                            color: "rgb(255, 208, 0)"
+                            color: "#5f9ea0"
                         }
                     }],
                     layout: {
@@ -114,7 +114,7 @@ class Graph2 extends React.Component {
                 z: this.state.imdb_ratings.slice(0, 5),
                 type: 'scatter3d',
                 mode: 'markers',
-                marker: { color: "rgb(255, 208, 0)" }
+                marker: { color: "#5f9ea0" }
             }],
             layout: {
                 width: 1000,
@@ -151,7 +151,7 @@ class Graph2 extends React.Component {
                 z: this.state.imdb_ratings.slice(0, 10),
                 type: 'scatter3d',
                 mode: 'markers',
-                marker: { color: "rgb(255, 208, 0)" }
+                marker: { color: "#5f9ea0" }
             }],
             layout: {
                 width: 1000,
@@ -188,7 +188,7 @@ class Graph2 extends React.Component {
                 z: this.state.imdb_ratings.slice(0, 15),
                 type: 'scatter3d',
                 mode: 'markers',
-                marker: { color: "rgb(255, 208, 0)" }
+                marker: { color: "#5f9ea0" }
             }],
             layout: {
                 width: 1000,
@@ -225,7 +225,7 @@ class Graph2 extends React.Component {
                 z: this.state.imdb_ratings.slice(0, 20),
                 type: 'scatter3d',
                 mode: 'markers',
-                marker: { color: "rgb(255, 208, 0)" }
+                marker: { color: "#5f9ea0" }
             }],
             layout: {
                 width: 1000,
@@ -262,7 +262,7 @@ class Graph2 extends React.Component {
                 z: this.state.imdb_ratings.slice(0, 50),
                 type: 'scatter3d',
                 mode: 'markers',
-                marker: { color: "rgb(255, 208, 0)" }
+                marker: { color: "#5f9ea0" }
             }],
             layout: {
                 width: 1000,

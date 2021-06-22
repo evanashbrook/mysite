@@ -65,7 +65,7 @@ class Graph extends React.Component {
             textposition: 'auto',
             textangle: 90,
             type: 'bar',
-            marker: { color: "rgb(255, 208, 0)" }
+            marker: { color: "#5f9ea0" }
           }],
           layout: {
             width: 1000,
@@ -95,7 +95,7 @@ class Graph extends React.Component {
         textposition: 'auto',
         textangle: 90,
         type: 'bar',
-        marker: { color: "rgb(255, 208, 0)" }
+        marker: { color: "#5f9ea0" }
       }],
       layout: {
         width: 1000,
@@ -117,7 +117,7 @@ class Graph extends React.Component {
         textposition: 'auto',
         textangle: 90,
         type: 'bar',
-        marker: { color: "rgb(255, 208, 0)" }
+        marker: { color: "#5f9ea0" }
       }],
       layout: {
         width: 1000,
@@ -139,7 +139,7 @@ class Graph extends React.Component {
         textposition: 'auto',
         textangle: 90,
         type: 'bar',
-        marker: { color: "rgb(255, 208, 0)" }
+        marker: { color: "#5f9ea0" }
       }],
       layout: {
         width: 1000,
@@ -161,7 +161,7 @@ class Graph extends React.Component {
         textposition: 'auto',
         textangle: 90,
         type: 'bar',
-        marker: { color: "rgb(255, 208, 0)" }
+        marker: { color: "#5f9ea0" }
       }],
       layout: {
         width: 1000,
@@ -183,7 +183,7 @@ class Graph extends React.Component {
         textposition: 'auto',
         textangle: 90,
         type: 'bar',
-        marker: { color: "rgb(255, 208, 0)" }
+        marker: { color: "#5f9ea0" }
       }],
       layout: {
         width: 1000,
