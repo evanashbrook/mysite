@@ -1,5 +1,7 @@
 import React from 'react'
 import Graph from '../../Components/Graph'
+import Mgraph from '../../Components/Mgraph'
+import Mgraph2 from '../../Components/Mgraph2'
 import Graph2 from '../../Components/Graph2'
 import PlotCard from '../../Components/Plot'
 import './style.css'
@@ -18,8 +20,12 @@ const Projects = (props) => {
   return (
     <section className="proj">
       {isDesktopOrLaptop &&
-        <div className='plt'>
-          <Graph />
+        <div className="project">
+          <PlotCard>
+            <div className='plt'>
+              <Graph />
+            </div>
+          </PlotCard>
         </div>}
       {isDesktopOrLaptop &&
         <div className="project2">
@@ -31,12 +37,20 @@ const Projects = (props) => {
         </div>}
 
       {isTabletOrMobile &&
-        <div className='m-plt2'>
-          <Graph />
+        <div className="m-project2">
+          <PlotCard>
+            <div className='m-plt2'>
+              <Mgraph />
+            </div>
+          </PlotCard>
         </div>}
       {isTabletOrMobile &&
-        <div className='m-plt2'>
-          <Graph2 />
+        <div className="m-project2">
+          <PlotCard>
+            <div className='m-plt2'>
+              <Mgraph2 />
+            </div>
+          </PlotCard>
         </div>}
     </section>
   )

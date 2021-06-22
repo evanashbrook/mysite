@@ -7,7 +7,7 @@ axios.defaults.xsrfCookieName = 'csrftoken'
 axios.defaults.xsrfHeaderName = 'X-CSRFToken'
 
 
-class Graph2 extends React.Component {
+class Mgraph2 extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -67,7 +67,7 @@ class Graph2 extends React.Component {
                         }
                     }],
                     layout: {
-                        width: 800,
+                        width: 500,
                         height: 400,
                         paper_bgcolor: 'rgb(97, 92, 87)',
                         plot_bgcolor: 'rgb(97, 92, 87)',
@@ -118,5 +118,4 @@ class Graph2 extends React.Component {
         );
     }
 }
-export default Graph2;
-
+export default Mgraph2;

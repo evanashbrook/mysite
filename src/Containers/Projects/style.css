@@ -7,11 +7,11 @@
 }
 
 .project {
-  position: absolute;
-  left: 20%;
-  right: 20%;
-  top: 10%;
+  width: 100%;
   text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  justify-content: center;
 }
 
 .plt {
@@ -19,12 +19,10 @@
 }
 
 .project2 {
-  position: absolute;
-  left: 20%;
-  right: 20%;
-  top: 100%;
-  bottom: -100%;
+  width: 100%;
   text-align: center;
+  margin-bottom: 5%;
+  justify-content: center;
 }
 
 .plt2 {

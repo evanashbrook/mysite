@@ -2,13 +2,12 @@ import React from "react";
 import Plot from "react-plotly.js";
 import axios from 'axios';
 import './style.css'
-import { useMediaQuery } from 'react-responsive'
 
 axios.defaults.xsrfCookieName = 'csrftoken'
 axios.defaults.xsrfHeaderName = 'X-CSRFToken'
 
 
-class Graph extends React.Component {
+class Mgraph extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -20,8 +19,8 @@ class Graph extends React.Component {
           width: [1, 1, 1]
         }],
       layout: {
-        width: 1000,
-        height: 500,
+        width: 500,
+        height: 400,
         paper_bgcolor: 'rgb(97, 92, 87)',
         plot_bgcolor: 'rgb(97, 92, 87)',
         font: { family: "Arial", size: "15px", color: "rgb(253, 237, 165)" },
@@ -64,7 +63,7 @@ class Graph extends React.Component {
             marker: { color: "rgb(255, 208, 0)" }
           }],
           layout: {
-            width: 1000,
+            width: 200,
             height: 500,
             paper_bgcolor: 'rgb(97, 92, 87)',
             plot_bgcolor: 'rgb(97, 92, 87)',
@@ -100,4 +99,4 @@ class Graph extends React.Component {
     );
   }
 }
-export default Graph;
+export default Mgraph;
