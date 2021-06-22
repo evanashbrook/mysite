@@ -1,6 +1,4 @@
 import React from 'react'
-import Mainpage from '../../Components/Mainpage'
-import Sidebar from '../../Components/Sidebar'
 import './style.css'
 import { useMediaQuery } from 'react-responsive'
 

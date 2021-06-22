@@ -63,8 +63,8 @@ class Mgraph extends React.Component {
             marker: { color: "rgb(255, 208, 0)" }
           }],
           layout: {
-            width: 200,
-            height: 500,
+            width: 500,
+            height: 400,
             paper_bgcolor: 'rgb(97, 92, 87)',
             plot_bgcolor: 'rgb(97, 92, 87)',
             font: { family: "Arial", size: "15", color: "rgb(253, 237, 165)" },
