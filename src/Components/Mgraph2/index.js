@@ -19,7 +19,7 @@ class Mgraph2 extends React.Component {
                     z: [],
                 }],
             layout: {
-                width: 500,
+                width: 400,
                 height: 400,
                 paper_bgcolor: 'rgb(97, 92, 87)',
                 plot_bgcolor: 'rgb(97, 92, 87)',
@@ -72,7 +72,7 @@ class Mgraph2 extends React.Component {
                         }
                     }],
                     layout: {
-                        width: 500,
+                        width: 400,
                         height: 400,
                         paper_bgcolor: 'rgb(97, 92, 87)',
                         plot_bgcolor: 'rgb(97, 92, 87)',
