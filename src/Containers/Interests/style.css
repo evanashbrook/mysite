@@ -1,5 +1,33 @@
 .Ihme {
   width: 100%;
   height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.response{
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  margin-top: 10%;
+  color: rgb(194, 159, 2);
+  font-family: "Orbitron", sans-serif;
+}
+
+.setting1{
+  color: rgb(253, 237, 165);
+}
+
+.setting2{
+  color: rgb(253, 237, 165);
+}
+
+.mode1{
+  color: rgb(253, 237, 165);
+}
+
+.mode2{
+  color: rgb(253, 237, 165);
 }
 
