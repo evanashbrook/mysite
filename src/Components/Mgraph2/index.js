@@ -19,9 +19,9 @@ class Mgraph2 extends React.Component {
                     z: [],
                 }],
             layout: {
-                width: 425,
+                width: 450,
                 height: 400,
-                margin: { l: 20, r: 20, t: 10, b: 10, pad: 5 },
+                margin: { l: 20, r: 20, t: 10, b: 10, pad: 0 },
                 paper_bgcolor: 'rgb(97, 92, 87)',
                 plot_bgcolor: 'rgb(97, 92, 87)',
                 font: { family: "Arial", size: "15", color: "rgb(253, 237, 165)" },
@@ -73,9 +73,9 @@ class Mgraph2 extends React.Component {
                         }
                     }],
                     layout: {
-                        width: 425,
+                        width: 450,
                         height: 400,
-                        margin: { l: 20, r: 20, t: 10, b: 10, pad: 5 },
+                        margin: { l: 20, r: 20, t: 10, b: 10, pad: 0 },
                         paper_bgcolor: 'rgb(97, 92, 87)',
                         plot_bgcolor: 'rgb(97, 92, 87)',
                         font: { family: "Arial", size: "15", color: "rgb(253, 237, 165)" },
@@ -90,7 +90,7 @@ class Mgraph2 extends React.Component {
                                     x: 0, y: -.5, z: -.5
                                 },
                                 eye: {
-                                    x: -.5, y: 1.5, z: 1.2
+                                    x: -.5, y: 1.0, z: 1.2
                                 },
                                 up: {
                                     x: 0, y: 0, z: 1

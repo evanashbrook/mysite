@@ -21,6 +21,7 @@ class Graph2 extends React.Component {
             layout: {
                 width: 1000,
                 height: 650,
+                margin: { l: 20, r: 20, t: 10, b: 10, pad: 10 },
                 paper_bgcolor: 'rgb(97, 92, 87)',
                 plot_bgcolor: 'rgb(97, 92, 87)',
                 font: { family: "Arial", size: "15", color: "rgb(253, 237, 165)" },
@@ -74,6 +75,7 @@ class Graph2 extends React.Component {
                     layout: {
                         width: 1000,
                         height: 650,
+                        margin: { l: 20, r: 20, t: 10, b: 10, pad: 10 },
                         paper_bgcolor: 'rgb(97, 92, 87)',
                         plot_bgcolor: 'rgb(97, 92, 87)',
                         font: { family: "Arial", size: "15", color: "rgb(253, 237, 165)" },
@@ -88,7 +90,7 @@ class Graph2 extends React.Component {
                                     x: 0, y: -.5, z: -.5
                                 },
                                 eye: {
-                                    x: -.5, y: 1.5, z: 1.2
+                                    x: -.5, y: 1, z: 1.2
                                 },
                                 up: {
                                     x: 0, y: 0, z: 1
@@ -119,6 +121,7 @@ class Graph2 extends React.Component {
             layout: {
                 width: 1000,
                 height: 650,
+                margin: { l: 20, r: 20, t: 10, b: 10, pad: 10 },
                 paper_bgcolor: 'rgb(97, 92, 87)',
                 plot_bgcolor: 'rgb(97, 92, 87)',
                 font: { family: "Arial", size: "15", color: "rgb(253, 237, 165)" },
@@ -133,7 +136,7 @@ class Graph2 extends React.Component {
                             x: 0, y: -.5, z: -.5
                         },
                         eye: {
-                            x: -.5, y: 1.5, z: 1.2
+                            x: -.5, y: 1, z: 1.2
                         },
                         up: {
                             x: 0, y: 0, z: 1
@@ -156,6 +159,7 @@ class Graph2 extends React.Component {
             layout: {
                 width: 1000,
                 height: 650,
+                margin: { l: 20, r: 20, t: 10, b: 10, pad: 10 },
                 paper_bgcolor: 'rgb(97, 92, 87)',
                 plot_bgcolor: 'rgb(97, 92, 87)',
                 font: { family: "Arial", size: "15", color: "rgb(253, 237, 165)" },
@@ -170,7 +174,7 @@ class Graph2 extends React.Component {
                             x: 0, y: -.5, z: -.5
                         },
                         eye: {
-                            x: -.5, y: 1.5, z: 1.2
+                            x: -.5, y: 1, z: 1.2
                         },
                         up: {
                             x: 0, y: 0, z: 1
@@ -193,6 +197,7 @@ class Graph2 extends React.Component {
             layout: {
                 width: 1000,
                 height: 650,
+                margin: { l: 20, r: 20, t: 10, b: 10, pad: 10 },
                 paper_bgcolor: 'rgb(97, 92, 87)',
                 plot_bgcolor: 'rgb(97, 92, 87)',
                 font: { family: "Arial", size: "15", color: "rgb(253, 237, 165)" },
@@ -207,7 +212,7 @@ class Graph2 extends React.Component {
                             x: 0, y: -.5, z: -.5
                         },
                         eye: {
-                            x: -.5, y: 1.5, z: 1.2
+                            x: -.5, y: 1, z: 1.2
                         },
                         up: {
                             x: 0, y: 0, z: 1
@@ -230,6 +235,7 @@ class Graph2 extends React.Component {
             layout: {
                 width: 1000,
                 height: 650,
+                margin: { l: 20, r: 20, t: 10, b: 10, pad: 10 },
                 paper_bgcolor: 'rgb(97, 92, 87)',
                 plot_bgcolor: 'rgb(97, 92, 87)',
                 font: { family: "Arial", size: "15", color: "rgb(253, 237, 165)" },
@@ -244,7 +250,7 @@ class Graph2 extends React.Component {
                             x: 0, y: -.5, z: -.5
                         },
                         eye: {
-                            x: -.5, y: 1.5, z: 1.2
+                            x: -.5, y: 1, z: 1.2
                         },
                         up: {
                             x: 0, y: 0, z: 1
@@ -267,6 +273,7 @@ class Graph2 extends React.Component {
             layout: {
                 width: 1000,
                 height: 650,
+                margin: { l: 20, r: 20, t: 10, b: 10, pad: 10 },
                 paper_bgcolor: 'rgb(97, 92, 87)',
                 plot_bgcolor: 'rgb(97, 92, 87)',
                 font: { family: "Arial", size: "15", color: "rgb(253, 237, 165)" },
@@ -281,7 +288,7 @@ class Graph2 extends React.Component {
                             x: 0, y: -.5, z: -.5
                         },
                         eye: {
-                            x: -.5, y: 1.5, z: 1.2
+                            x: -.5, y: 1, z: 1.2
                         },
                         up: {
                             x: 0, y: 0, z: 1
