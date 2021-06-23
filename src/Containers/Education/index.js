@@ -48,8 +48,8 @@ const Education = (props) => {
             </div>}
             {isDesktopOrLaptop && <div className="Eside2">
                 <Card2>
-                    <p className='p21'>Web Dev</p>
-                    <p className='p22'>Learning Mathematics and Philosophy produced some of the most enlightening moments in my life, and they prepared me to understand how to generalize, problem solve, and shift perspective.  I very much value the years I spent learning these skills.  However, their pure theoretical nature kept me from applying my knowledge to my actions.  They also did not provide too many professions to apply my knowledge to.  Given my background with python, and a realization that computers are the most amazing thing to happen to humanity, I decided to dive head first into learning computer technology at large.  I'll admit, it will be a long journey, but I've started here at web development and I'm pretty proud of what I've been able to accomplish.</p>
+                    <p className='p21'>My Intro To Web Dev</p>
+                    <p className='p22'>Learning Mathematics and Philosophy produced some of the most enlightening moments in my life, and they prepared me to understand how to generalize, problem solve, and shift perspective.  I very much value the years I spent learning these skills.  However, their pure theoretical nature kept me from applying my knowledge to my actions.  They also did not provide too many professions to apply my knowledge to.  Given my background with python, and a realization that the computer is the most revolutionary invention that humanity has produced, I decided to dive head first into learning computer technology at large.  I'll admit, it will be a long journey, but I've started here at web development and I'm pretty proud of what I've been able to accomplish.</p>
                     <dl className='knowlist'>
                         <p className='frontend'>Frontend</p>
                         <dt>JSX</dt>
@@ -76,13 +76,24 @@ const Education = (props) => {
                     <div className='btmlists'>
                         <ul className='l1'>
                             <li className='react'><SoftCard>React</SoftCard></li>
+                            <li className='node'><SoftCard>Node.js</SoftCard></li>
                             <li className='react-pltly'><SoftCard>React-Plotly</SoftCard></li>
                             <li className='axios'><SoftCard>Axios</SoftCard></li>
                         </ul>
                         <ul className='l2'>
                             <li className='django'><SoftCard>Django</SoftCard></li>
                             <li className='djangorf'><SoftCard>Django REST Framework</SoftCard></li>
+                            <li className='dj-c-h'><SoftCard>Django-Cors-Headers</SoftCard></li>
+                            <li className='gunicorn'><SoftCard>Gunicorn</SoftCard></li>
                         </ul>
+                    </div>
+                    <div className='datab'>
+                        <p className='db'>Database:</p>
+                        <p className='dbpost'><SoftCard>PostgreSQL</SoftCard></p>
+                    </div>
+                    <div className='heroku'>
+                        <p className='dep'>Deployment:</p>
+                        <p className='hboi'><SoftCard>Heroku</SoftCard></p>
                     </div>
                 </Card2>
             </div>}
@@ -115,8 +126,8 @@ const Education = (props) => {
             </div>}
             {isTabletOrMobile && <div className="m-Eside2">
                 <Card2>
-                    <p className='m-p21'>Web Dev</p>
-                    <p className='m-p22'>Learning Mathematics and Philosophy produced some of the most enlightening moments in my life, and they prepared me to understand how to generalize, problem solve, and shift perspective.  I very much value the years I spent learning these skills.  However, their pure theoretical nature kept me from applying my knowledge to my actions.  They also did not provide too many professions to apply my knowledge to.  Given my background with python, and a realization that computers are the most amazing thing to happen to humanity, I decided to dive head first into learning computer technology at large.  I'll admit, it will be a long journey, but I've started here at web development and I'm pretty proud of what I've been able to accomplish.</p>
+                    <p className='m-p21'>My Intro To Web Dev</p>
+                    <p className='m-p22'>Learning Mathematics and Philosophy produced some of the most enlightening moments in my life, and they prepared me to understand how to generalize, problem solve, and shift perspective.  I very much value the years I spent learning these skills.  However, their pure theoretical nature kept me from applying my knowledge to my actions.  They also did not provide too many professions to apply my knowledge to.  Given my background with python, and a realization that the computer is the most revolutionary invention that humanity has produced, I decided to dive head first into learning computer technology at large.  I'll admit, it will be a long journey, but I've started here at web development and I'm pretty proud of what I've been able to accomplish.</p>
                     <dl className='m-knowlist'>
                         <p className='m-frontend'>Frontend</p>
                         <dt>JSX</dt>
@@ -142,14 +153,25 @@ const Education = (props) => {
                     </div>
                     <div className='m-btmlists'>
                         <ul className='m-l1'>
-                            <li className='m-react'><SoftCard>React</SoftCard></li>
-                            <li className='m-react-pltly'><SoftCard>React-Plotly</SoftCard></li>
-                            <li className='m-axios'><SoftCard>Axios</SoftCard></li>
+                            <li className='react'><SoftCard>React</SoftCard></li>
+                            <li className='node'><SoftCard>Node.js</SoftCard></li>
+                            <li className='react-pltly'><SoftCard>React-Plotly</SoftCard></li>
+                            <li className='axios'><SoftCard>Axios</SoftCard></li>
                         </ul>
                         <ul className='m-l2'>
-                            <li className='m-django'><SoftCard>Django</SoftCard></li>
-                            <li className='m-djangorf'><SoftCard>Django REST Framework</SoftCard></li>
+                            <li className='django'><SoftCard>Django</SoftCard></li>
+                            <li className='djangorf'><SoftCard>Django REST Framework</SoftCard></li>
+                            <li className='dj-c-h'><SoftCard>Django-Cors-Headers</SoftCard></li>
+                            <li className='gunicorn'><SoftCard>Gunicorn</SoftCard></li>
                         </ul>
+                    </div>
+                    <div className='m-datab'>
+                        <p className='m-db'>Database:</p>
+                        <p className='m-dbpost'><SoftCard>PostgreSQL</SoftCard></p>
+                    </div>
+                    <div className='m-heroku'>
+                        <p className='m-dep'>Deployment:</p>
+                        <p className='m-hboi'><SoftCard>Heroku</SoftCard></p>
                     </div>
                 </Card2>
             </div>}

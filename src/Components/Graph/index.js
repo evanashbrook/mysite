@@ -21,6 +21,7 @@ class Graph extends React.Component {
       layout: {
         width: 1000,
         height: 500,
+        margin: { l: 20, r: 20, t: 10, b: 10, pad: 0 },
         paper_bgcolor: 'rgb(97, 92, 87)',
         plot_bgcolor: 'rgb(97, 92, 87)',
         font: { family: "Arial", size: "15px", color: "rgb(253, 237, 165)" },
@@ -70,6 +71,7 @@ class Graph extends React.Component {
           layout: {
             width: 1000,
             height: 500,
+            margin: { l: 20, r: 20, t: 10, b: 10, pad: 0 },
             paper_bgcolor: 'rgb(97, 92, 87)',
             plot_bgcolor: 'rgb(97, 92, 87)',
             font: { family: "Arial", size: "15", color: "rgb(253, 237, 165)" },
@@ -100,6 +102,7 @@ class Graph extends React.Component {
       layout: {
         width: 1000,
         height: 500,
+        margin: { l: 20, r: 20, t: 10, b: 10, pad: 0 },
         paper_bgcolor: 'rgb(97, 92, 87)',
         plot_bgcolor: 'rgb(97, 92, 87)',
         font: { family: "Arial", size: "15", color: "rgb(253, 237, 165)" },
@@ -122,6 +125,7 @@ class Graph extends React.Component {
       layout: {
         width: 1000,
         height: 500,
+        margin: { l: 20, r: 20, t: 10, b: 10, pad: 0 },
         paper_bgcolor: 'rgb(97, 92, 87)',
         plot_bgcolor: 'rgb(97, 92, 87)',
         font: { family: "Arial", size: "15", color: "rgb(253, 237, 165)" },
@@ -144,6 +148,7 @@ class Graph extends React.Component {
       layout: {
         width: 1000,
         height: 500,
+        margin: { l: 20, r: 20, t: 10, b: 10, pad: 0 },
         paper_bgcolor: 'rgb(97, 92, 87)',
         plot_bgcolor: 'rgb(97, 92, 87)',
         font: { family: "Arial", size: "15", color: "rgb(253, 237, 165)" },
@@ -166,6 +171,7 @@ class Graph extends React.Component {
       layout: {
         width: 1000,
         height: 500,
+        margin: { l: 20, r: 20, t: 10, b: 10, pad: 0 },
         paper_bgcolor: 'rgb(97, 92, 87)',
         plot_bgcolor: 'rgb(97, 92, 87)',
         font: { family: "Arial", size: "15", color: "rgb(253, 237, 165)" },
@@ -188,6 +194,7 @@ class Graph extends React.Component {
       layout: {
         width: 1000,
         height: 500,
+        margin: { l: 20, r: 20, t: 10, b: 10, pad: 0 },
         paper_bgcolor: 'rgb(97, 92, 87)',
         plot_bgcolor: 'rgb(97, 92, 87)',
         font: { family: "Arial", size: "15", color: "rgb(253, 237, 165)" },

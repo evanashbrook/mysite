@@ -90,13 +90,15 @@
 
 .m-evan {
   font-family: "Orbitron", sans-serif;
-  font-size: 3.8vw;
+  font-size: 10vw;
   color: rgb(255, 208, 0);
   font: small-caps;
   padding-top: 5%;
   padding-bottom: 5%;
   padding-left: 1.7%;
   text-align: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 .m-mypic {
@@ -104,7 +106,7 @@
   width: 50%;
   height: auto;
   z-index: 950;
-  margin-bottom: 5%;
+  margin-bottom: 1%;
 }
 
 .m-mypic img {
@@ -121,7 +123,7 @@
 .m-cp1 {
   text-align: left;
   color: rgb(255, 208, 0);
-  font-size: 2.5vw;
+  font-size: 7.5vw;
   padding-left: 1%;
   margin-bottom: .5%;
   font-family: "Orbitron", sans-serif;
@@ -131,7 +133,7 @@
 
 .m-clist {
   text-align: left;
-  font-size: 1.1vw;
+  font-size: 5vw;
   color: rgb(253, 237, 165);
   font-family: "Orbitron", sans-serif;
   list-style: none;

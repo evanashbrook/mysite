@@ -20,8 +20,9 @@ class Mgraph extends React.Component {
           width: [1, 1, 1]
         }],
       layout: {
-        width: 425,
+        width: 450,
         height: 400,
+        margin: { l: 20, r: 20, t: 10, b: 10, pad: 0 },
         paper_bgcolor: 'rgb(97, 92, 87)',
         plot_bgcolor: 'rgb(97, 92, 87)',
         font: { family: "Arial", size: "15px", color: "rgb(253, 237, 165)" },
@@ -69,8 +70,9 @@ class Mgraph extends React.Component {
             marker: { color: "#5f9ea0" }
           }],
           layout: {
-            width: 425,
+            width: 450,
             height: 400,
+            margin: { l: 20, r: 20, t: 10, b: 10, pad: 0 },
             paper_bgcolor: 'rgb(97, 92, 87)',
             plot_bgcolor: 'rgb(97, 92, 87)',
             font: { family: "Arial", size: "15", color: "rgb(253, 237, 165)" },
@@ -98,15 +100,6 @@ class Mgraph extends React.Component {
         type: 'bar',
         marker: { color: "#5f9ea0" }
       }],
-      layout: {
-        width: 400,
-        height: 400,
-        paper_bgcolor: 'rgb(97, 92, 87)',
-        plot_bgcolor: 'rgb(97, 92, 87)',
-        font: { family: "Arial", size: "15", color: "rgb(253, 237, 165)" },
-        xaxis: { showticklabels: false },
-        yaxis: { range: [0, 10], zerolinecolor: "rgb(253, 237, 165)" }
-      },
     })
   };
   handleClick2() {
@@ -120,15 +113,6 @@ class Mgraph extends React.Component {
         type: 'bar',
         marker: { color: "#5f9ea0" }
       }],
-      layout: {
-        width: 600,
-        height: 400,
-        paper_bgcolor: 'rgb(97, 92, 87)',
-        plot_bgcolor: 'rgb(97, 92, 87)',
-        font: { family: "Arial", size: "15", color: "rgb(253, 237, 165)" },
-        xaxis: { showticklabels: false },
-        yaxis: { range: [0, 10], zerolinecolor: "rgb(253, 237, 165)" }
-      },
     })
   };
   handleClick3() {
@@ -142,15 +126,6 @@ class Mgraph extends React.Component {
         type: 'bar',
         marker: { color: "#5f9ea0" }
       }],
-      layout: {
-        width: 800,
-        height: 400,
-        paper_bgcolor: 'rgb(97, 92, 87)',
-        plot_bgcolor: 'rgb(97, 92, 87)',
-        font: { family: "Arial", size: "15", color: "rgb(253, 237, 165)" },
-        xaxis: { showticklabels: false },
-        yaxis: { range: [0, 10], zerolinecolor: "rgb(253, 237, 165)" }
-      },
     })
   };
   handleClick4() {
@@ -164,15 +139,6 @@ class Mgraph extends React.Component {
         type: 'bar',
         marker: { color: "#5f9ea0" }
       }],
-      layout: {
-        width: 1000,
-        height: 400,
-        paper_bgcolor: 'rgb(97, 92, 87)',
-        plot_bgcolor: 'rgb(97, 92, 87)',
-        font: { family: "Arial", size: "15", color: "rgb(253, 237, 165)" },
-        xaxis: { showticklabels: false },
-        yaxis: { range: [0, 10], zerolinecolor: "rgb(253, 237, 165)" }
-      },
     })
   };
   handleClick5() {
@@ -186,15 +152,6 @@ class Mgraph extends React.Component {
         type: 'bar',
         marker: { color: "#5f9ea0" }
       }],
-      layout: {
-        width: 1200,
-        height: 400,
-        paper_bgcolor: 'rgb(97, 92, 87)',
-        plot_bgcolor: 'rgb(97, 92, 87)',
-        font: { family: "Arial", size: "15", color: "rgb(253, 237, 165)" },
-        xaxis: { showticklabels: false },
-        yaxis: { range: [0, 10], zerolinecolor: "rgb(253, 237, 165)" }
-      },
     })
   };
 

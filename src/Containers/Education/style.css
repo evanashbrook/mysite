@@ -204,6 +204,12 @@
   font-weight: bolder;
 }
 
+.node{
+  text-align: center;
+  color: rgb(75, 71, 68);
+  font-weight: bolder;
+}
+
 .react-pltly {
   text-align: center;
   color: rgb(75, 71, 68);
@@ -228,6 +234,60 @@
   font-weight: bolder;
 }
 
+.gunicorn{
+  text-align: center;
+  color: rgb(75, 71, 68);
+  font-weight: bolder;
+}
+
+.dj-c-h{
+  text-align: center;
+  color: rgb(75, 71, 68);
+  font-weight: bolder;
+}
+
+.datab{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.db{
+  font-size: 3vw;
+  color: rgb(255, 208, 0);
+  width: fit-content;
+  font-family: "Orbitron", sans-serif;
+}
+
+.dbpost{
+  text-align: center;
+  color: rgb(75, 71, 68);
+  font-weight: bolder;
+  font-family: "Orbitron", sans-serif;
+  margin-left: 2%;
+}
+
+.heroku{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dep{
+  font-size: 3vw;
+  color: rgb(255, 208, 0);
+  width: fit-content;
+  font-family: "Orbitron", sans-serif;
+}
+
+.hboi{
+  text-align: center;
+  color: rgb(75, 71, 68);
+  font-weight: bolder;
+  font-family: "Orbitron", sans-serif;
+  margin-left: 2%;
+}
+
 
 
 
@@ -246,19 +306,20 @@
 
 .m-ncstate {
   font-family: "Orbitron", sans-serif;
-  font-size: 3.8vw;
+  font-size: 10vw;
   color: rgb(255, 208, 0);
   padding-top: 5%;
   padding-bottom: 5%;
   padding-left: 1.7%;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 .m-sas {
-  text-align: right;
   width: 50%;
   height: auto;
   z-index: 950;
-  padding-bottom: 5%;
+  margin-bottom: 1%;
 }
 
 .m-sas img{
@@ -273,13 +334,13 @@
   text-align: center;
   width: 100%;
   height: fit-content;
-  margin-bottom: 5%;
+  margin-bottom: 1%;
 }
 
 .m-p1 {
   text-align: left;
   color: rgb(255, 208, 0);
-  font-size: 2.5vw;
+  font-size: 5vw;
   padding-left: 1%;
   margin-bottom: .5%;
   font-family: "Orbitron", sans-serif;
@@ -292,12 +353,12 @@
   color: rgb(194, 159, 2);
   padding-left: 2%;
   margin-top: 0%;
-  font-size: 1.5vw;
+  font-size: 3vw;
 }
 
 .m-schlist {
   text-align: left;
-  font-size: 1.1vw;
+  font-size: 2.8vw;
   color: rgb(253, 237, 165);
   font-family: "Orbitron", sans-serif;
   list-style: none;
@@ -307,13 +368,13 @@
 .m-Eside2 {
   width: 100%;
   height: fit-content;
-  margin-bottom: 5%;
+  margin-bottom: 1%;
 }
 
 .m-p21 {
   text-align: center;
   color: rgb(255, 208, 0);
-  font-size: 2.5vw;
+  font-size: 5vw;
   margin-top: 0%;
   margin-bottom: 0%;
   font-family: "Orbitron", sans-serif;
@@ -323,7 +384,7 @@
   color: rgb(253, 237, 165);
   font-family: "Orbitron", sans-serif;
   padding: 0% 3%;
-  font-size: .9vw;
+  font-size: 2.8vw;
 }
 
 .m-knowlist {
@@ -338,38 +399,38 @@
   text-align: center;
   color: rgb(255, 208, 0);
   font-family: "Orbitron", sans-serif;
-  font-size: 1.5vw;
+  font-size: 4vw;
 }
 
 .m-knowlist2 p {
   text-align: center;
   color: rgb(255, 208, 0);
   font-family: "Orbitron", sans-serif;
-  font-size: 1.5vw;
+  font-size: 4vw;
 }
 
 .m-knowlist dt {
   color: rgb(194, 159, 2);
   font-family: "Orbitron", sans-serif;
-  font-size: .9vw;
+  font-size: 2.8vw;
 }
 
 .m-knowlist2 dt {
   color: rgb(194, 159, 2);
   font-family: "Orbitron", sans-serif;
-  font-size: .9vw;
+  font-size: 2.8vw;
 }
 
 .m-knowlist dd {
   color: rgb(253, 237, 165);
   font-family: "Orbitron", sans-serif;
-  font-size: .9vw;
+  font-size: 2.8vw;
 }
 
 .m-knowlist2 dd {
   color: rgb(253, 237, 165);
   font-family: "Orbitron", sans-serif;
-  font-size: .9vw;
+  font-size: 2.8vw;
 }
 
 .m-btm {
@@ -385,7 +446,7 @@
 }
 
 .m-fend {
-  font-size: 3vw;
+  font-size: 4vw;
   color: rgb(255, 208, 0);
   padding-left: 2.5%;
   width: fit-content;
@@ -393,7 +454,7 @@
 }
 
 .m-bend {
-  font-size: 3vw;
+  font-size: 4vw;
   color: rgb(255, 208, 0);
   padding-left: 0%;
   width: fit-content;
@@ -413,12 +474,18 @@
 
 .m-btmlists ul li {
   margin: 3% 0%;
-  font-size: 1vw;
+  font-size: 2.8vw;
   align-items: center;
   font-family: "Orbitron", sans-serif;
 }
 
 .m-react {
+  text-align: center;
+  color: rgb(75, 71, 68);
+  font-weight: bolder;
+}
+
+.m-node{
   text-align: center;
   color: rgb(75, 71, 68);
   font-weight: bolder;
@@ -446,4 +513,58 @@
   text-align: center;
   color: rgb(75, 71, 68);
   font-weight: bolder;
+}
+
+.m-dj-c-h{
+  text-align: center;
+  color: rgb(75, 71, 68);
+  font-weight: bolder;
+}
+
+.m-gunicorn{
+  text-align: center;
+  color: rgb(75, 71, 68);
+  font-weight: bolder;
+}
+
+.m-datab{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.m-db{
+  font-size: 3vw;
+  color: rgb(255, 208, 0);
+  width: fit-content;
+  font-family: "Orbitron", sans-serif;
+}
+
+.m-dbpost{
+  text-align: center;
+  color: rgb(75, 71, 68);
+  font-weight: bolder;
+  font-family: "Orbitron", sans-serif;
+  margin-left: 2%;
+}
+
+.m-heroku{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.m-dep{
+  font-size: 3vw;
+  color: rgb(255, 208, 0);
+  width: fit-content;
+  font-family: "Orbitron", sans-serif;
+}
+
+.m-hboi{
+  text-align: center;
+  color: rgb(75, 71, 68);
+  font-weight: bolder;
+  font-family: "Orbitron", sans-serif;
+  margin-left: 2%;
 }
