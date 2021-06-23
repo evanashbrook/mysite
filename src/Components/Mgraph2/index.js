@@ -73,7 +73,7 @@ class Mgraph2 extends React.Component {
                         }
                     }],
                     layout: {
-                        width: 450,
+                        width: 420,
                         height: 400,
                         margin: { l: 20, r: 20, t: 10, b: 10, pad: 0 },
                         paper_bgcolor: 'rgb(97, 92, 87)',
