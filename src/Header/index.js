@@ -33,7 +33,7 @@ const Header = (props) => {
           <li><NavLink to='/'>Evan Ashbrook</NavLink></li>
           <li><NavLink to='/education'>Education</NavLink></li>
           <li><NavLink to='projects'>Django DB Project</NavLink></li>
-          <li><NavLink to='/interests'>Interests</NavLink></li>
+          <li><NavLink to='/interests'>Responsive Practices</NavLink></li>
         </nav>}
       {isTabletOrMobile &&
         <div className='m-contact'>

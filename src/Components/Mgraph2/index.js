@@ -29,6 +29,19 @@ class Mgraph2 extends React.Component {
                     xaxis: { range: [1990, 2021], zerolinecolor: "rgb(253, 237, 165)", title: 'Release Year' },
                     yaxis: { range: [0, 10], zerolinecolor: "rgb(253, 237, 165)", title: 'Title' },
                     zaxis: { range: [0, 10], zerolinecolor: "rgb(253, 237, 165)", title: 'IMDB Rating' },
+                    aspectmode: 'manual',
+                    aspectratio: { x: 2, y: 1, z: 1 },
+                    camera: {
+                        center: {
+                            x: 0, y: -.5, z: -.5
+                        },
+                        eye: {
+                            x: -.5, y: 2, z: 1.2
+                        },
+                        up: {
+                            x: 0, y: 0, z: 1
+                        }
+                    },
                 },
             },
             config: { responsive: true },
@@ -73,7 +86,7 @@ class Mgraph2 extends React.Component {
                         }
                     }],
                     layout: {
-                        width: 420,
+                        width: 410,
                         height: 400,
                         margin: { l: 20, r: 20, t: 10, b: 10, pad: 0 },
                         paper_bgcolor: 'rgb(97, 92, 87)',
