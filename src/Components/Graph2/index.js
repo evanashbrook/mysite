@@ -90,7 +90,7 @@ class Graph2 extends React.Component {
                                     x: 0, y: -.5, z: -.5
                                 },
                                 eye: {
-                                    x: -.5, y: 1, z: 1.2
+                                    x: -.5, y: 2, z: 1.2
                                 },
                                 up: {
                                     x: 0, y: 0, z: 1
