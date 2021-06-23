@@ -17,12 +17,12 @@ const Home = (props) => {
       {isDesktopOrLaptop &&
         <div className="Hmain">
           <p className='fronttxt'>Evan Ashbrook</p>
-          <p className='fronttxt2'>Web Devs</p>
+          <p className='fronttxt2'>Web Dev</p>
         </div>}
       {isTabletOrMobile &&
         <div className="m-Hmain">
           <p className='m-fronttxt'>Evan Ashbrook</p>
-          <p className='m-fronttxt2'>Web Devs</p>
+          <p className='m-fronttxt2'>Web Dev</p>
         </div>}
     </section>
   )
