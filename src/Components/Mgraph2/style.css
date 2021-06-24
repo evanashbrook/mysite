@@ -16,9 +16,11 @@
   width: 100%;
 }
 
-.m2-btns ul{
+.m2-btnlst{
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
+    padding: 0%;
 }
 
 .m2-btns ul button{

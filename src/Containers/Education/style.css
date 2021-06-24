@@ -464,6 +464,7 @@
 .m-btmlists {
   display: flex;
   justify-content: space-evenly;
+  padding: 0%;
 }
 
 .m-btmlists ul {
@@ -479,10 +480,21 @@
   font-family: "Orbitron", sans-serif;
 }
 
+.m-l1{
+  width: 35%;
+  padding: 0%;
+}
+
+.m-l2{
+  width: 35%;
+  padding: 0%;
+}
+
 .m-react {
   text-align: center;
   color: rgb(75, 71, 68);
   font-weight: bolder;
+  width: 100%;
 }
 
 .m-node{
@@ -546,12 +558,15 @@
   font-weight: bolder;
   font-family: "Orbitron", sans-serif;
   margin-left: 2%;
+  font-size: 2.8vw;
+  width: 30%;
 }
 
 .m-heroku{
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-right: 4%;
 }
 
 .m-dep{
@@ -567,4 +582,6 @@
   font-weight: bolder;
   font-family: "Orbitron", sans-serif;
   margin-left: 2%;
+  font-size: 2.8vw;
+  width: 30%;
 }

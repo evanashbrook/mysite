@@ -21,12 +21,8 @@ const Header = (props) => {
           <li><NavLink to='/education'>Education</NavLink></li>
           <li><NavLink to='projects'>Django DB Project</NavLink></li>
           <li><NavLink to='/interests'>Responsive Practices</NavLink></li>
-        </nav>}
-      {isDesktopOrLaptop &&
-        <div className='contact'>
           <li><NavLink to='/Contact'>Contact</NavLink></li>
-
-        </div>}
+        </nav>}
 
       {isTabletOrMobile &&
         <nav className="m-headerMenu">
@@ -34,12 +30,8 @@ const Header = (props) => {
           <li><NavLink to='/education'>Education</NavLink></li>
           <li><NavLink to='projects'>Django DB Project</NavLink></li>
           <li><NavLink to='/interests'>Responsive Practices</NavLink></li>
-        </nav>}
-      {isTabletOrMobile &&
-        <div className='m-contact'>
           <li><NavLink to='/Contact'>Contact</NavLink></li>
-
-        </div>}
+        </nav>}
 
 
     </header>

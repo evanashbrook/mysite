@@ -2,10 +2,11 @@
   display: flex;
   justify-content: space-between;
   margin: .25% 0px;
+  width: 100%;
 }
 
 .headerMenu{
-  width: 60%;
+  width: 100%;
 }
 
 .headerMenu li {
@@ -13,7 +14,7 @@
   justify-content: space-evenly;
   list-style: none;
   color: #f5f5f5;
-  width: 25%;
+  width: 20%;
   font-size: 1vw;
   font-family: "Orbitron", sans-serif;
 }
@@ -26,34 +27,19 @@
 .header li a:hover {
   color: #5f9ea0;
 }
-.contact li {
-  display: inline-block;
-  margin: 0 50px;
-  text-decoration: none;
-  list-style: none;
-  color: #565673;
-  font-size: 1vw;
-  letter-spacing: 1.2px;
-  position: relative;
-  font-family: "Orbitron", sans-serif;
-}
-
-.contact li a {
-  text-decoration: none;
-  color: rgb(255, 208, 0);
-}
 
 .m-headerMenu{
-  width: 70%;
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-evenly;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .m-headerMenu li {
-  display: inline-flex;
-  justify-content: space-evenly;
   list-style: none;
   color: #f5f5f5;
-  width: 25%;
-  font-size: 1.5vw;
+  font-size: 2vw;
   font-family: "Orbitron", sans-serif;
 }
 
@@ -62,19 +48,3 @@
   color: rgb(255, 208, 0);
 }
 
-.m-contact li {
-  display: inline-block;
-  margin: 0 5%;
-  text-decoration: none;
-  list-style: none;
-  color: #565673;
-  font-size: 1.5vw;
-  letter-spacing: 1.2px;
-  position: relative;
-  font-family: "Orbitron", sans-serif;
-}
-
-.m-contact li a {
-  text-decoration: none;
-  color: rgb(255, 208, 0);
-}

@@ -20,8 +20,8 @@ class Mgraph extends React.Component {
           width: [1, 1, 1]
         }],
       layout: {
-        width: 450,
-        height: 400,
+        width: 350,
+        height: 300,
         margin: { l: 20, r: 20, t: 10, b: 10, pad: 0 },
         paper_bgcolor: 'rgb(97, 92, 87)',
         plot_bgcolor: 'rgb(97, 92, 87)',
@@ -70,8 +70,8 @@ class Mgraph extends React.Component {
             marker: { color: "#5f9ea0" }
           }],
           layout: {
-            width: 450,
-            height: 400,
+            width: 350,
+            height: 300,
             margin: { l: 20, r: 20, t: 10, b: 10, pad: 0 },
             paper_bgcolor: 'rgb(97, 92, 87)',
             plot_bgcolor: 'rgb(97, 92, 87)',
@@ -159,6 +159,7 @@ class Mgraph extends React.Component {
     return (
       <section>
         <p className='m-pltttle'>Neftlix IMDB Ratings</p>
+        <p className='m-pltsttle'>Use the chart toolbar and buttons to manipulate the chart.  When adding new movies to compare, scroll right to view the added movies.</p>
         <div className='m-plottyboi'>
           <Plot
             data={this.state.data}
@@ -170,7 +171,7 @@ class Mgraph extends React.Component {
         </div>
         <div className='m-btns'>
           <p className='m-btntitle'>How many movies would you like to compare?</p>
-          <ul>
+          <ul className='m-btnlst'>
             <button className='m-btn1' onClick={this.handleClick1}>5</button>
             <button className='m-btn2' onClick={this.handleClick2}>10</button>
             <button className='m-btn3' onClick={this.handleClick3}>15</button>

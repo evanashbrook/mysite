@@ -19,8 +19,8 @@ class Mgraph2 extends React.Component {
                     z: [],
                 }],
             layout: {
-                width: 450,
-                height: 400,
+                width: 350,
+                height: 300,
                 margin: { l: 20, r: 20, t: 10, b: 10, pad: 0 },
                 paper_bgcolor: 'rgb(97, 92, 87)',
                 plot_bgcolor: 'rgb(97, 92, 87)',
@@ -86,8 +86,8 @@ class Mgraph2 extends React.Component {
                         }
                     }],
                     layout: {
-                        width: 410,
-                        height: 400,
+                        width: 350,
+                        height: 300,
                         margin: { l: 20, r: 20, t: 10, b: 10, pad: 0 },
                         paper_bgcolor: 'rgb(97, 92, 87)',
                         plot_bgcolor: 'rgb(97, 92, 87)',
@@ -184,7 +184,7 @@ class Mgraph2 extends React.Component {
     render() {
         return (
             <section>
-                <p className='m-pltttle2'>Neftlix IMDB Ratings</p>
+                <p className='m-pltttle2'>Tap and drag with your finger to view data from different angles</p>
                 <div className='m2-plottyboi'>
                     <Plot
                         data={this.state.data}
@@ -196,7 +196,7 @@ class Mgraph2 extends React.Component {
                 </div>
                 <div className='m2-btns'>
                     <p className='m2-btntitle'>How many movies would you like to compare?</p>
-                    <ul>
+                    <ul className='m2-btnlst'>
                         <button className='m2-btn1' onClick={this.handleClick1}>5</button>
                         <button className='m2-btn2' onClick={this.handleClick2}>10</button>
                         <button className='m2-btn3' onClick={this.handleClick3}>15</button>

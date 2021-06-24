@@ -153,16 +153,16 @@ const Education = (props) => {
                     </div>
                     <div className='m-btmlists'>
                         <ul className='m-l1'>
-                            <li className='react'><SoftCard>React</SoftCard></li>
-                            <li className='node'><SoftCard>Node.js</SoftCard></li>
-                            <li className='react-pltly'><SoftCard>React-Plotly</SoftCard></li>
-                            <li className='axios'><SoftCard>Axios</SoftCard></li>
+                            <li className='m-react'><SoftCard>React</SoftCard></li>
+                            <li className='m-node'><SoftCard>Node.js</SoftCard></li>
+                            <li className='m-react-pltly'><SoftCard>React-Plotly</SoftCard></li>
+                            <li className='m-axios'><SoftCard>Axios</SoftCard></li>
                         </ul>
                         <ul className='m-l2'>
-                            <li className='django'><SoftCard>Django</SoftCard></li>
-                            <li className='djangorf'><SoftCard>Django REST Framework</SoftCard></li>
-                            <li className='dj-c-h'><SoftCard>Django-Cors-Headers</SoftCard></li>
-                            <li className='gunicorn'><SoftCard>Gunicorn</SoftCard></li>
+                            <li className='m-django'><SoftCard>Django</SoftCard></li>
+                            <li className='m-djangorf'><SoftCard>Django REST Framework</SoftCard></li>
+                            <li className='m-dj-c-h'><SoftCard>Django-Cors-Headers</SoftCard></li>
+                            <li className='m-gunicorn'><SoftCard>Gunicorn</SoftCard></li>
                         </ul>
                     </div>
                     <div className='m-datab'>
